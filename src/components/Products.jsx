@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <section className="mx-auto  px-28">
       <div className="mt-14 text-center">
-        <h1 className="text-[64px]  text-3xl font-bold">Elevate Your Projects with Our Products</h1>
+        <h1 className="text-[64px] text-3xl font-bold leading-[64px]">Elevate Your Projects with Our Products</h1>
         <p className=" mt-8 w-3/5 mx-auto ">
         Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam ornatus nam ei.
         </p>

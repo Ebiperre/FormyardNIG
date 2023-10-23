@@ -1,6 +1,7 @@
 import hero from '../assets/Hero.png';
 import logo from '../assets/Logo.png';
 import { AiOutlineMenu } from 'react-icons/ai';
+import { Outlet, Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
       <div className="container px-36 mx-auto">
         <div className=" w-full flex justify-between pt-2">
           <div className="w-24">
-            <img src={logo} />
+          <Link to={`/`} className="font-bold"><img src={logo} /></Link>
           </div>
           <button className="bg-white text-black rounded-full p-2">
             <AiOutlineMenu size={20} />
