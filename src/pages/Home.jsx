@@ -9,7 +9,7 @@ import Products from "../components/Products"
 const Home = () => {
   return (
     <div className='w-full '>
-        <Navigation />
+        {/* <Navigation /> */}
         <Hero  />
         <Stats  />
         <Services />
