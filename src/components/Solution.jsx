@@ -11,7 +11,7 @@ const data = [
 
 const Services = () => {
   return (
-    <section className="mx-auto  px-28">
+    <section className="mx-auto  py-8   px-28">
       <div className="mt-14 text-center">
         <h1 className="text-[64px]  text-3xl font-bold">Tailored Construction Solutions</h1>
         <p className=" mt-8 w-3/5 mx-auto ">

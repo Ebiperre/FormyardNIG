@@ -1,4 +1,4 @@
-import { AiFillCheckCircle } from 'react-icons/ai';
+import Heading from "./Heading";
 
 const data = [
   { text: 'Structural Materials' },
@@ -7,19 +7,14 @@ const data = [
   { text: 'Safety Gear and Apparel' },
 ];
 
+
+const heading = " Elevate Your Projects with Our Products"
+const text = "Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei,at nihil tantas platonem eos. Mazim nemore singulis an ius, nullamornatus nam ei." ;
+
 const Services = () => {
   return (
-    <section className="mx-auto  px-28">
-      <div className="mt-14 text-center">
-        <h1 className="text-[64px] text-3xl font-bold leading-[64px]">
-          Elevate Your Projects with Our Products
-        </h1>
-        <p className=" mt-8 w-3/5 mx-auto ">
-          Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei,
-          at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam
-          ornatus nam ei.
-        </p>
-      </div>
+    <section className="mx-auto py-8    px-28 bg-[#F2F4EB]">
+      <Heading text={text} heading={heading} />
       <div className="grid grid-cols-4 gap-[23px] mt-4 ">
         {data.map((stat) => (
           <div className="flex flex-col place-content-center gap-[32px]    w-fit">
