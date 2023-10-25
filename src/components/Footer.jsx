@@ -55,7 +55,7 @@ function Footer() {
             </p>
 
             <div className=''>
-              <input type="text" placeholder="Enter Your email address" className='bg-inherit border border-[#BCBCBC] rounded-tl-[29px]  rounded-bl-[29px]  py-4 px-6' />
+              <input type="text" placeholder="Enter Your email address" className='bg-inherit   border border-[#BCBCBC] rounded-tl-[29px]  rounded-bl-[29px]  py-4 px-6' />
               <button className='bg-[#FD0] text-black rounded-tr-[29px] border border-[#FD0]  rounded-br-[29px] py-4 px-6 '>Shop Now</button>
             </div>
           </div>
