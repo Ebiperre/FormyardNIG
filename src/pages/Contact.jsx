@@ -7,7 +7,6 @@ import { Outlet, Link } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 
-
 function Contact() {
   return (
     <div>
