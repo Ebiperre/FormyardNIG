@@ -5,13 +5,14 @@ import { Outlet, Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div
+    <section
       style={{ backgroundImage: `url(${hero})` }}
-      className="min-h-[768px]  bg-cover"
+      className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
     >
+      {/* put bg image in tailwindconfig file */}
       {/* hero content  */}
-      <div className="container px-36 mx-auto">
-        <div className=" w-full flex justify-between pt-2">
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+        <div className=" w-full flexBetween pt-2">
           <div className="w-24">
           <Link to={`/`} className="font-bold"><img src={logo} /></Link>
           </div>
@@ -21,11 +22,11 @@ const Hero = () => {
         </div>
 
         {/* CTA */}
-        <div className="grid gap-[24px]  w-3/4 h-screen justify-center items-center   place-content-center">
-          <h1 className=" font-bold text-7xl text-white ">
+        <div className="relative flex flex-1 item-start flex-col py-16 lg:py-44 gap-3 lg:gap-6">
+          <h1 className="bold-52 lg:bold-88 text-white">
             Build Your Vision With Precision
           </h1>
-          <p className="text-white font-normal w-4/5 ">
+          <p className="text-white regular-14 lg:regular-20 lg:w-[570px]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
             enim similique magni ipsum quia vero, numquam voluptates libero
             nesciunt a!
@@ -39,7 +40,7 @@ const Hero = () => {
       </div>
 
       
-    </div>
+    </section>
   );
 };
 

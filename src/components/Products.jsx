@@ -13,7 +13,7 @@ const text = "Quidam officiis similique sea ei, vel tollit indoctum efficiendi e
 
 const Services = () => {
   return (
-    <section className="mx-auto py-8    px-28 bg-[#F2F4EB]">
+    <section className="mx-auto py-8  hidden lg:block  px-28 bg-[#F2F4EB]">
       <Heading text={text} heading={heading} />
       <div className="grid grid-cols-4 gap-[23px] mt-4 ">
         {data.map((stat) => (

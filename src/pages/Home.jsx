@@ -11,7 +11,6 @@ import Projects from '../components/Projects'
 const Home = () => {
   return (
     <div className='w-full '>
-        {/* <Navigation /> */}
         <Hero  />
         <Stats  />
         <Services />

@@ -10,8 +10,9 @@ import { LiaCopyrightSolid } from 'react-icons/lia';
 
 function Footer() {
   return (
-    <footer className=" bg-black text-white ">
-      <div className="mx-auto  px-28 ">
+    <footer className="flexCenter bg-black text-white">
+      <div className="padding-container max-container flex w-full
+      flex-col gap-14">
         {/* contianer */}
         <div className="grid grid-cols-2 gap-8 border-b">
           {/* footer items */}
