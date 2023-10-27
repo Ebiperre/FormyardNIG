@@ -24,12 +24,12 @@ const Hero = () => {
         {/* CTA */}
         <div className="relative flex flex-1 item-start flex-col py-16 lg:py-44 gap-3 lg:gap-6">
           <h1 className="bold-52 lg:bold-88 text-white">
-            Build Your Vision With Precision
+          BUILDING YOUR VISION
           </h1>
           <p className="text-white regular-14 lg:regular-20 lg:w-[570px]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-            enim similique magni ipsum quia vero, numquam voluptates libero
-            nesciunt a!
+          We bring your ideas to life with quality craftsmanship.
+
+
           </p>
           <div>
             <button className="rounded-full text-black text-base font-bold text-start bg-[#FFDD00] px-12  py-3">
