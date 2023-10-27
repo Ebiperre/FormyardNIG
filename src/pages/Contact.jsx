@@ -61,15 +61,15 @@ function Contact() {
         </div>
       </div>
     </section>
-    <section className='bg-white py-8 px-36 mx-auto'>
-      <div className='flex gap-4  '>
+    <section className='bg-white padding-container max-container pb-20'>
+      <div className='flexCenter flex-col-reverse lg:flex-row gap-4  '>
         {/* map */}
-        <div className='w-1/2'>
+        <div className=''>
           <img src={map} alt="map"  className='w-[479px] ' />
         </div>
         {/* contact form */}
-        <div className='flex flex-col w-2/5 gap-[29px] justify-center '>
-          <h2 className='text-2xl font-bold'>Contact Form</h2>
+        <div className='flex flex-col lg:w-[397px] gap-[29px] justify-center '>
+          <h2 className='bold-32'>Contact Form</h2>
 
           <form className='flex flex-col space-y-4 mt-4'>
             <label htmlFor="" className='flex flex-col space-y-3'>
