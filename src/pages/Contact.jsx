@@ -62,7 +62,7 @@ function Contact() {
       </div>
     </section>
     <section className='bg-white padding-container max-container pb-20'>
-      <div className='flexCenter flex-col-reverse lg:flex-row gap-4  '>
+      <div className='flexCenter flex-col-reverse lg:flex-row gap-6  '>
         {/* map */}
         <div className=''>
           <img src={map} alt="map"  className='w-[479px] ' />
@@ -73,18 +73,18 @@ function Contact() {
 
           <form className='flex flex-col space-y-4 mt-4'>
             <label htmlFor="" className='flex flex-col space-y-3'>
-              <span>Full Name</span>
+              <span className='regular-16'>Full Name</span>
               <input type="text" placeholder='john Doe'
               className='py-4 px-6 border border-[#939294] rounded-md' />
             </label>
             <label htmlFor="" className='flex flex-col space-y-3'>
-              <span>Email Address</span>
+              <span className='regular-16'>Email Address</span>
               <input type="text" placeholder='john Doe' 
                   className='py-4 px-6 border border-[#939294] rounded-md' />
             </label>
             <label htmlFor="" className='flex flex-col space-y-3'>
-              <span className='text-[#939294]'>Message</span>
-              <textarea name="" id="" cols="30" rows="5" className='border rounded-md border-[#939294]'>Enter Your Message</textarea>
+              <span className='regular-16'>Message</span>
+              <textarea name="" id="" cols="30" rows="5" className='border rounded-md border-[#939294] p-4 text-[#878787]'>Enter Your Message</textarea>
             </label>
             <div className='pt-4'>
             <button className= 'bg-[#FD0]  w-full py-4 px-6 rounded-md font-bold text-white'>Submit</button>
