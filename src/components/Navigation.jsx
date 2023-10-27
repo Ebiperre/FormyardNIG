@@ -36,7 +36,7 @@ const Navigation = () => {
           </button>
         <div className="gap-1 lg:flex hidden">
           <PiEnvelope size={24} />
-          <h2 className="font-normal regular-12 lg:regular-16">info@gmail.com</h2>
+          <h2 className="font-normal regular-12 lg:regular-16">Kevork@formyardnig.com</h2>
         </div>
       </div>
 

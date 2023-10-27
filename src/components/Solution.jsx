@@ -7,8 +7,8 @@ const Services = () => {
     <section className="2xl:max-container 4xl:max-none  lg:mt-14 relative flex flex-col px-8 lg:px-20  lg:mb-10  xl:mb-20">
       <div className="flexCenter flex-col mt-14 w-full">
         <h1 className="bold-50 lg:bold-56 px-5 lg:px-0">Tailored Construction Solutions</h1>
-        <p className="regular-20 lg:w-[782px] pt-7">
-          Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam ornatus nam ei.
+        <p className="regular-20 lg:w-[782px] pt-7 xl:text-center">
+        At Formyard Nig Ltd, we are committed to sustainable and eco-friendly construction practises. We use green building materials and techniques whenever possible to reduce our impact on the environment.
         </p>
       </div>
       <div className="grid lg:grid-cols-3 gap-[23px] mt-14 ">

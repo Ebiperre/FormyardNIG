@@ -65,8 +65,8 @@ function Footer() {
         <div className="flex justify-between items-center pb-4">
           <div className='flex items-center text-[#BCBCBC]'>
             <LiaCopyrightSolid />
-            <p >
-              2023 Doka. All Rights Reserve</p>
+            <p>
+              2023 Formyard. All Rights Reserve</p>
           </div>
 
           <div className="flex text-[#BCBCBC] space-x-3">
