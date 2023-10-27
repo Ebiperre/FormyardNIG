@@ -12,10 +12,10 @@ function Contact() {
     <div>
     <header
       style={{ backgroundImage: `url(${contact})` }}
-      className="min-h-[551px]"
+      className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
     >
-      <div className="container px-36 mx-auto">
-        <div className=" w-full flex justify-between pt-2">
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+        <div className=" w-full flexBetween pt-2">
           <div className="w-24">
             <Link to={`/`} className="font-bold">
               <img src={logo} />
@@ -27,36 +27,36 @@ function Contact() {
         </div>
 
         {/* CTA */}
-        <div className="grid gap-[24px] text-center  w-full  h-screen justify-center items-center   place-content-center">
-          <h1 className=" font-bold text-5xl text-white w-3/5 mx-auto ">
+        <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
+          <h1 className=" bold-52 lg:bold-88 text-white">
             Get in touch with us for more information
           </h1>
-          <p className="text-white font-normal w-4/5  mx-auto  ">
+          <p className="text-white regular-14 lg:regular-20  ">
             If you need help or question, we’re here for you
           </p>
         </div>
       </div>
     </header>
     {/* conatct form */}
-    <section className='bg-white py-8 px-36 mx-auto'>
-      <div className='flex'>
+    <section className='relative padding-container max-container flex flex-col py-16 lg:py-44 gap-3 lg:gap-6'>
+      <div className='flex flex-col lg:flex-row gap-3'>
         <div>
-          <h2 className='text-[#FD0] text-5xl font-bold space-y-4'>Contact us Today</h2>
-          <p className='w-4/5 text-black/50'  >Our team is available to assist you during our business hours. We will do our best to respond to your inquiry as quickly as possible.</p>
+          <h2 className='text-[#FD0] text-5xl font-bold space-y-4 '>Contact us Today</h2>
+          <p className='lg:w-[698.059px] text-black/50'  >Our team is available to assist you during our business hours. We will do our best to respond to your inquiry as quickly as possible.</p>
         </div>
-        <div className=''>
+        <div className='flex flex-col gap-5 mt-0 lg:-mt-[105px]'>
           {/* card items */}
-          <div className='shadow px-8  pt-2 pb-4'>
-            <h2 className='text-[#FD0] text-xl font-bold'>Get directions to our office</h2>
-            <p>20 Igbodo Street Old GRA Port Harcourt.</p>
+          <div className='shadow p-8 rounded-xl  flex-col flexCenter'>
+            <h2 className='text-[#FD0] text-xl font-bold w-[182.216px]'>Get directions to our office</h2>
+            <p className='w-[209.544px] regular-18 pl-[14px]'>20 Igbodo Street Old GRA Port Harcourt.</p>
           </div>
-          <div className='shadow px-8  pt-2 pb-4'>
+          <div className='shadow p-8 rounded-xl flex-col flexCenter'>
             <h2 className='text-[#FD0] text-xl font-bold'>Contact our support team</h2>
-            <p>+2348037079584</p>
+            <p className="regular-18">+2348037079584</p>
           </div>
-          <div className='shadow px-8  pt-2 pb-4'>
+          <div className='shadow p-8 rounded-xl flex-col flexCenter'>
             <h2 className='text-[#FD0] text-xl font-bold'>Send us an email</h2>
-            <p>info@crewtechng.com.</p>
+            <p className="regular-18">info@crewtechng.com.</p>
           </div>
         </div>
       </div>
