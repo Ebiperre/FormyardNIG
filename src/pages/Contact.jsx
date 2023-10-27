@@ -68,7 +68,7 @@ function Contact() {
           <img src={map} alt="map"  className='w-[479px] ' />
         </div>
         {/* contact form */}
-        <div className='flex flex-col lg:w-[397px] gap-[29px] justify-center '>
+        <div className='flex flex-col w-full lg:w-[397px] gap-[29px] justify-center '>
           <h2 className='bold-32'>Contact Form</h2>
 
           <form className='flex flex-col space-y-4 mt-4'>
