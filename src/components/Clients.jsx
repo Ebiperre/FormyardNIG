@@ -27,7 +27,7 @@ const Clients = () => {
   ];
 
   return (
-    <section className="2xl:max-container relative flex flex-col px-10 lg:px-20 py-10 lg:mb-10 lg:py-20 xl:mb-20">
+    <section className="2xl:max-container 4xl:max-none  relative flex flex-col px-10 lg:px-20 py-10 lg:mb-10 lg:py-20 xl:mb-20">
       {/* <Heading heading={heading} text={text} /> */}
       <div className="flexCenter flex-col mt-14 w-full">
         <h1 className="bold-56">Clients Voices of Satisfaction</h1>

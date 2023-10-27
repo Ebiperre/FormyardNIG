@@ -6,7 +6,6 @@ export const NAV_LINKS = [
     { href: '/', key: 'home', labrl: "img={logo}" },
     { href: '/about', key: 'about', label: 'About' },
     { href: '/portfolio', key: 'portfolio', label: 'Portfolio' },
-    // { href: '/blog', key: 'blog', label: 'Blog' },
     { href: '/contact', key: 'contact', label: 'Contact' },
     
 ];
