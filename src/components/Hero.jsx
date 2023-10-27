@@ -12,14 +12,14 @@ const Hero = () => {
       {/* put bg image in tailwindconfig file */}
       {/* hero content  */}
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        <div className=" w-full flexBetween pt-2">
+        {/* <div className=" w-full flexBetween pt-2">
           <div className="w-24">
           <Link to={`/`} className="font-bold"><img src={logo} /></Link>
           </div>
           <button className="bg-white text-black rounded-full p-2">
             <AiOutlineMenu size={20} />
           </button>
-        </div>
+        </div> */}
 
         {/* CTA */}
         <div className="relative flex flex-1 item-start flex-col py-16 lg:py-44 gap-3 lg:gap-6">
