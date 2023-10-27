@@ -31,8 +31,8 @@ function Footer() {
               </ul>
               <ul className="pr-12 space-y-4">
                 <li className="font-bold">Help</li>
-                <li className="text-[#BCBCBC]">Conatct US</li>
-                <li className="text-[#BCBCBC]">Contacts</li>
+                <li className="text-[#BCBCBC]">Contact US</li>
+                {/* <li className="text-[#BCBCBC]">Contacts</li> */}
                 <li className="text-[#BCBCBC]">FAQ</li>
               </ul>
             </div>

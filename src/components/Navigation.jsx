@@ -16,10 +16,10 @@ const Navigation = () => {
       </ul>
       
       <div className="gap-7 lg:gap-12 flexCenter">
-        <div className="flexCenter gap-1">
+        {/* <div className="flexCenter gap-1">
           <MdPhoneIphone size={24} />
           <h2 className="font-normal regular-12 lg:regular-16">+1-541-754-3010</h2>
-        </div>
+        </div> */}
 
         <div className="flexCenter gap-1">
           <PiEnvelope size={24} />
