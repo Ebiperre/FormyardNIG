@@ -50,10 +50,26 @@
     .flexEnd {
       @apply flex items-center justify-end;
     }
+
+    /* colors */
+    .textPrimary {
+      @apply text-[#FD0]
+
+    }
+
   
     /* FONTS */
+
+    .regular-72{
+      @apply text-[72px] font-[500]
+    }
     .regular-64 {
       @apply text-[64px] font-[400] leading-[120%];
+    }
+
+    .regular-62 {
+      @apply text-[62.5px] font-[700]
+
     }
   
     .regular-40 {
