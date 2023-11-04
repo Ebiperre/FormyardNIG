@@ -6,7 +6,7 @@ import { CLIENTS } from '../constants';
 const Clients = () => {
   const heading = ' Clients Voices of Satisfaction';
   const text =
-    'Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. Mazim nemore singulis an ius, nullam ornatus nam ei.';
+    'OUR REPUTATION IN THE WORDS OF OUR CUSTOMERS';
 
   const data = [
     {

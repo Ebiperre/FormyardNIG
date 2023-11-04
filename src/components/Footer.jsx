@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {
   TiSocialFacebook,
   TiSocialLinkedin,
@@ -16,9 +14,9 @@ function Footer() {
       flex-col gap-14"
       >
         {/* contianer */}
-        <div className="grid  gap-4 border-b">
+        <div className="grid  gap-4 items-center border-b">
           {/* footer items */}
-            <div className="flex flex-col lg:flex-row justify-between text-start w-full  gap-3 py-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  justify-between text-start  lg:text-start w-full  gap-3 py-12 ">
               <ul className="space-y-4">
                 <li className="font-bold">Shop</li>
                 <li className="text-[#BCBCBC]">Flooring</li>
