@@ -41,22 +41,22 @@ function Contact() {
     <section className='relative padding-container max-container flex flex-col py-16 lg:py-44 gap-3 lg:gap-6'>
       <div className='flex flex-col lg:flex-row gap-3'>
         <div>
-          <h2 className='text-[#FD0] text-5xl font-bold space-y-4 '>Contact us Today</h2>
-          <p className='lg:w-[698.059px] text-black/50'  >Our team is available to assist you during our business hours. We will do our best to respond to your inquiry as quickly as possible.</p>
+          <h2 className=' text-3xl font-bold space-y-4 '>Contact us Today</h2>
+          <p className='lg:w-4/5 text-black/50 text-gray-30'  >Our team is available to assist you during our business hours. We will do our best to respond to your inquiry as quickly as possible.</p>
         </div>
         <div className='flex flex-col gap-5 mt-0 lg:-mt-[105px]'>
           {/* card items */}
           <div className='shadow p-8 rounded-xl  flex-col flexCenter'>
-            <h2 className='text-[#FD0] text-xl font-bold w-[182.216px]'>Get directions to our office</h2>
-            <p className='w-[209.544px] regular-18 pl-[14px]'>20 Igbodo Street Old GRA Port Harcourt.</p>
+            <h2 className=' text-xl font-bold w-[182.216px]'>Get directions to our office</h2>
+            <p className='w-[209.544px] regular-18 pl-[14px] text-gray-30'>20 Igbodo Street Old GRA Port Harcourt.</p>
           </div>
           <div className='shadow p-8 rounded-xl flex-col flexCenter'>
-            <h2 className='text-[#FD0] text-xl font-bold'>Contact our support team</h2>
-            <p className="regular-18">+2348037079584</p>
+            <h2 className='text-xl font-bold'>Contact our support team</h2>
+            <p className="regular-18 text-gray-30">+2348037079584</p>
           </div>
           <div className='shadow p-8 rounded-xl flex-col flexCenter'>
-            <h2 className='text-[#FD0] text-xl font-bold'>Send us an email</h2>
-            <p className="regular-18">info@crewtechng.com.</p>
+            <h2 className=' text-xl font-bold '>Send us an email</h2>
+            <p className="regular-18 text-gray-30 ">info@crewtechng.com.</p>
           </div>
         </div>
       </div>
@@ -64,8 +64,8 @@ function Contact() {
     <section className='bg-white padding-container max-container pb-20'>
       <div className='flexCenter flex-col-reverse lg:flex-row gap-6  '>
         {/* map */}
-        <div className=''>
-          <img src={map} alt="map"  className='w-[479px] ' />
+        <div className='px-2 md:px-0'>
+          <iframe width="400" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=600&amp;hl=en&amp;q=Block%20101,%20Plot%2021,%20Adewunmi%20Adebimpe%20Drive,%20Off%20Marwa%20Bus%20Stop,%20Lekki%201,%20Lagos%20%7C%20Nigeria+(farmyard)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe>
         </div>
         {/* contact form */}
         <div className='flex flex-col w-full lg:w-[397px] gap-[29px] justify-center '>
