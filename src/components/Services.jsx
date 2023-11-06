@@ -25,11 +25,10 @@ const text =
 
 const Services = () => {
   return (
-    <section className="2xl:max-container 4xl:max-none  relative flex flex-col px-10 lg:px-20 py-10 lg:mb-10 lg:py-20 xl:mb-20">
-      {/* <heading heading={heading} text={text} /> */}
+    <section className="2xl:max-container 4xl:max-none  relative flex flex-col px-5 md:px-10 lg:px-20 py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="flexCenter flex-col mt-14 w-full">
-        <h1 className="bold-28 lg:bold-56">Why Choose Formyard</h1>
-        <p className="regular-20 lg:w-[782px] pt-7 xl:text-center">We specialize in commercial and residential construction projects, including new construction, renovations, and additions. Our team has extensive experience and knowledge in the industry, allowing us to provide our clients with top-notch services.</p>
+        <h1 className="bold-28 lg:bold-56 text-center">Why Choose Formyard</h1>
+        <p className="md:regular-20 lg:w-[782px] pt-7 text-center">We specialize in commercial and residential construction projects, including new construction, renovations, and additions. Our team has extensive experience and knowledge in the industry, allowing us to provide our clients with top-notch services.</p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 lg:gap-6 mt-14 ">
         {SERVICES.map((services) => (
@@ -45,6 +44,7 @@ const Services = () => {
             </div>
             </div>
         ))}
+
           </div>
     </section>
   );

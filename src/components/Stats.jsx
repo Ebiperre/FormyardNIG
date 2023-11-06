@@ -13,7 +13,8 @@ const data = [
 
 const Stats = () => {
   return (
-    <section className="px-10 lg:px-36 mx-auto  bg-[#E9F3FF] ">
+    
+    <section className="px-10 lg:px-36 mx-auto  bg-[#E9F3FF] bg-red ">
       {/* container */}
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-20 py-6">
         {FEATURES.map((stats) => (

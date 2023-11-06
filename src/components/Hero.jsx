@@ -1,4 +1,4 @@
-import hero from '../assets/Hero.png';
+import hero from '../assets/pexels-ljupco-dzambazovski-1398761.jpg';
 import logo from '../assets/Logo.png';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { Outlet, Link } from "react-router-dom";
