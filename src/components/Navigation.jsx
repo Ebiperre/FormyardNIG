@@ -18,13 +18,8 @@ const Navigation = () => {
           </div>
         </li>
         {NAV_LINKS.map((link) => (
-          <Link
-            href={link.href}
-            key={link.key}
-            className="font-bold flexCenter cursor-pointer pb-1.5 transition-all"
-          >
-            {link.label}
-          </Link>
+          <Link to={link.href} key={link.key}
+            className="font-bold flexCenter cursor-pointer pb-1.5 transition-all">{link.label}</Link>
         ))}
       </ul>
 

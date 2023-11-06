@@ -4,6 +4,7 @@ import logo from '../assets/Logo.png';
 //NAVIGATION
 export const NAV_LINKS = [
     { href: '/', key: 'home', labrl: "img={logo}" },
+    { href: '/', key: 'home', label: 'Home' },
     { href: '/about', key: 'about', label: 'About' },
     { href: '/portfolio', key: 'portfolio', label: 'Portfolio' },
     { href: '/contact', key: 'contact', label: 'Contact' },
@@ -87,4 +88,38 @@ export const CLIENTS = [
         name: 'Darika Samak',
         company: 'Microsoft',
       },
-]
+];
+
+// FOOTER
+export const FOOTER_LINKS = [
+    {
+        title: 'Shop',
+        links: [
+            'Flooring',
+            'Form Work', 
+            'Tool'
+        ],
+    },
+    {
+        title: 'About',
+        links: [
+            'Our Story',
+            'Wholesale'
+        ],
+    },
+    {
+        title: 'Help',
+        links: [
+            'Contact Us',
+            'FAQ'
+        ],
+    },
+];
+
+export const FOOTER_CONTACT_INFO = {
+    title: 'Contact Us',
+    links: [
+        {label: 'Support team', value: '+2348037079584'},
+        {label: 'Email', value: 'info@crewtechng.com.'}
+    ],
+};
