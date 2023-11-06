@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       style={{ backgroundImage: `url(${hero})` }}
-      className="relative max-container 4xl:max-none padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
+      className="relative max-container 4xl:max-none padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover bg-center"
     >
       {/* put bg image in tailwindconfig file */}
       {/* hero content  */}

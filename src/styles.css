@@ -139,6 +139,10 @@
     .bold-20 {
       @apply text-[20px] font-[700];
     }
+
+    .bold-28 {
+      @apply text-[28px] font-[700];
+    }
   
     .bold-18 {
       @apply text-[18px] font-[700];

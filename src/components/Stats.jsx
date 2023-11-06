@@ -15,15 +15,12 @@ const Stats = () => {
   return (
     <section className="px-10 lg:px-36 mx-auto  bg-[#E9F3FF] ">
       {/* container */}
-      <div className="grid lg:grid-cols-4 gap-4 lg:gap-20 py-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-20 py-6">
         {FEATURES.map((stats) => (
           <div className="flex flex-col place-content-center lg:gap-[32px] h-full lg:min-h-[348px]  w-fit  ">
             <div className="gap-3">
               <div className="flex items-center gap-2 font-bold text-2xl">
                 <h2>{stats.stats}</h2>
-                {/* {stat.icon ?  <AiOutlinePlus /> : <AiOutlinePercentage />
-              } */}
-
               </div>
               <p className="text-base">{stats.title}</p>
             </div>
@@ -33,26 +30,6 @@ const Stats = () => {
             </div>
           </div>
         ))}
-        {/* {
-            data.map((stat) => (
-                <div className="flex flex-col place-content-center gap-[32px]  min-h-[348px]  w-fit  ">
-                <div className="gap-3">
-                  <div className="flex items-center gap-2 font-bold text-2xl">
-                    <h2>{stat.stats}</h2>
-                    {stat.icon ?  <AiOutlinePlus /> : <AiOutlinePercentage />
-                    }
-                   
-                  </div>
-                  <p className="text-base">{stat.text}</p>
-                </div>
-                  <div className="flex  items-center gap-4 w-[240px] h-[78px]  rounded-full  border border-black py-4 px-7 ">
-                    <AiFillCheckCircle size={32} />
-                    <p className="text-base">{stat.text2}</p>
-                  </div>
-              </div>
-            ))
-        } */}
-
       </div>
     </section>
   );
