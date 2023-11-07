@@ -93,18 +93,18 @@ export const CLIENTS = [
 // FOOTER
 export const FOOTER_LINKS = [
     {
-        title: 'Shop',
+        title: 'Portfolio',
         links: [
-            'Flooring',
-            'Form Work', 
-            'Tool'
+            'Lekki Blue waters',
+            'Formyard Training Program', 
+            'Service Assembly'
         ],
     },
     {
         title: 'About',
         links: [
-            'Our Story',
-            'Wholesale'
+            'Our Vision',
+            'Our Mission'
         ],
     },
     {

@@ -1,108 +1,71 @@
 import portfolio from '../assets/portfolio.png';
-import blog from '../assets/about.png';
-import about2 from '../assets/about2.png';
+// import blog from '../assets/about.png';
+// import about2 from '../assets/about2.png';
 
 //portfolio images
-import portfolio1 from '../assets/port1.jpg';
-import portfolio2 from '../assets/port2.jpg';
-import portfolio3 from '../assets/portfolio3.png';
-import portfolio4 from '../assets/portfolio4.png';
-import port3 from '../assets/port3.jpg';
-import portfolio6 from '../assets/portfolio6.png';
-import portfolio7 from '../assets/portfolio7.png';
-import portfolio8 from '../assets/portfolio8.png';
+// import portfolio1 from '../assets/port1.jpg';
+// import portfolio2 from '../assets/port2.jpg';
+// import portfolio3 from '../assets/portfolio3.png';
+// import portfolio4 from '../assets/portfolio4.png';
+// import portfolio6 from '../assets/portfolio6.png';
+// import portfolio7 from '../assets/portfolio7.png';
+// import portfolio8 from '../assets/portfolio8.png';
 
-import taraba1 from '../assets/taraba1.webp';
-import taraba2 from '../assets/taraba2.webp';
-import taraba3 from '../assets/taraba3.webp';
+//training
+import train1 from '../assets/portfolio/training1.jpg';
+import train2 from '../assets/portfolio/training2.jpg';
+import train3 from '../assets/portfolio/training3.jpg';
+import train4 from '../assets/portfolio/training4.jpg';
+import train5 from '../assets/portfolio/training5.jpg';
 
-import project2a from '../assets/portfolio/project2a.jpg';
-import project2b from '../assets/portfolio/project2b.jpg';
-import project2c from '../assets/portfolio/project2c.jpg';
+//7up
 
+import up1 from '../assets/portfolio/7up.webp';
+import up2 from '../assets/portfolio/7up2.webp';
+import up3 from '../assets/portfolio/7up3.webp';
+import up4 from '../assets/portfolio/7up4.webp';
 
-import project3a from '../assets/portfolio/project3a.jpg';
-import project3c from '../assets/portfolio/project3c.jpg';
+//assembling
+import assemble from '../assets/portfolio/asembling1.jpg';
+import assemble2 from '../assets/portfolio/asembling2.jpg';
+import assemble3 from '../assets/portfolio/asembling3.jpg';
 
+//bluwaters
+import bluewater1 from '../assets/portfolio/bluewaters1.webp';
+import bluewater2 from '../assets/portfolio/bluewaters2.webp';
+import bluewater3 from '../assets/portfolio/bluewaters3.webp';
+import bluewater4 from '../assets/portfolio/bluewaters4.webp';
 
-import project4a from '../assets/portfolio/project4a.jpg';
-import project4b from '../assets/portfolio/project4b.jpg';
+//zenith
+import zenith1 from '../assets/portfolio/Zenith1.webp';
+import zenith2 from '../assets/portfolio/Zenith2.webp';
+import zenith3 from '../assets/portfolio/Zenith3.webp';
+import zenith4 from '../assets/portfolio/Zenith4.webp';
+import zenith5 from '../assets/portfolio/Zenith5.webp';
+import zenith6 from '../assets/portfolio/zenith6.webp';
 
+//eko
+import eko1 from '../assets/portfolio/Eko1.jpg';
+import eko2 from '../assets/portfolio/Eko2.jpg';
+import eko3 from '../assets/portfolio/Eko3.jpg';
+import eko4 from '../assets/portfolio/Eko4.jpg';
+import eko5 from '../assets/portfolio/Eko5.jpg';
+import eko6 from '../assets/portfolio/Eko6.jpg';
 
-import completed1 from '../assets/portfolio/completedproject1.webp';
-import completed2 from '../assets/portfolio/completedproject1b.webp';
-import completed3 from '../assets/portfolio/completedproject2.webp';
-import completed4 from '../assets/portfolio/completedproject2c.webp';
+//rail
+import rail1 from '../assets/portfolio/rail1.jpg';
+import rail2 from '../assets/portfolio/rail2.jpg';
+import rail3 from '../assets/portfolio/rail3.jpg';
+import rail4 from '../assets/portfolio/rail4.jpg';
 
-import completed6 from '../assets/portfolio/completedproject6.webp';
-import completed7 from '../assets/portfolio/completedproject7.webp';
+//salvation
 
+import salvation1 from '../assets/portfolio/salvation1.webp';
+// import salvation2 from '../assets/portfolio/salvation2.JPG';
+import salvation3 from '../assets/portfolio/salvation3.webp';
+import salvation4 from '../assets/portfolio/salvation4.webp';
+import salvation5 from '../assets/portfolio/salvation5.webp';
 
-
-
-
-
-// function Portfolio() {
-//   return (
-//     <div>
-//       <header
-//         style={{ backgroundImage: `url(${portfolio})` }}
-//         className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
-//       >
-//         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-//           {/* CTA */}
-//           <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
-//             <p className="text-white regular-14 lg:regular-20  ">Portfolio</p>
-//           </div>
-//         </div>
-//       </header>
-//       <section  className="py-8 container px-36 mx-auto space-y-2">
-//         <h2>Recent work</h2>
-//         {/* first row */}
-//         <div className='flex gap-2'>
-//           <div className='w-[580px]'>
-//             <img src={portfolio1} alt="portfolio image"
-//             className='rounded-md' />
-//           </div>
-//           <div  className='w-[580px]'>
-//             <img src={portfolio2} alt="portfolio image" className='rounded-md' />
-//           </div>
-//         </div>
-
-//         {/* second row */}
-//         <div className='flex gap-2'>
-//           <div className='w-[580px] h-[580px]'>
-//             <img src={port3} alt="portfolio image" className='' />
-//           </div>
-//           <div  className='w-[580px]'>
-//             <img src={portfolio4} alt="portfolio image" />
-//           </div>
-//         </div>
-
-//         {/* third row */}
-//         <div className='flex gap-2'>
-//           <div className='w-[580px]'>
-//             <img src={portfolio1} alt="portfolio image" />
-//           </div>
-//           <div  className='w-[580px]'>
-//             <img src={portfolio2} alt="portfolio image" />
-//           </div>
-//           <div className='w-[580px]'>
-//             <img src={portfolio3} alt="portfolio image" />
-//           </div>
-//           <div  className='w-[580px]'>
-//             <img src={portfolio7} alt="portfolio image" />
-//           </div>
-//         </div>
-
-//       </section>
-//     </div>
-//   );
-// }
-
-// export default Portfolio;
-
-import React from 'react';
 
 const Portfolio = () => {
   return (
@@ -121,38 +84,40 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
-          PAMANGA-DAKKA ROAD, BALI L.G.A, TARABA STATE
+          LEKKI BLUE WATERS 2018 BY FARMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
-            <img src={portfolio2} alt="portfolio image" />
+            <img src={bluewater1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
             <p>
-              <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
-              <br></br>{' '}
+              <span className="font-bold">DATE OF AWARD: 2018</span> <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              project essentially entails the CONSTRUCTION OF PAMANGA – DAKKA
-              ROAD. The road network comprises of a single carriageway of 12.8m
-              width and approximately 35.9Km length, along the existing road
-              alignment. It shall be made up of 200mm lateritic sub-base, 150mm
-              stone base on the carriageway and 40mm asphaltic concrete wearing
-              course. There shall also be an extensive construction of lined
-              drains and culverts of various shapes and sizes.
+              FARMYARD NIG LTD is excited to introduce "LEKKI BLUE WATERS 2018,"
+              a project that exemplifies our relentless pursuit of excellence
+              and forward-thinking. This initiative in the Lekki Blue Waters
+              area represents a significant milestone in our journey to create
+              sustainable and visionary developments. In "LEKKI BLUE WATERS
+              2018," we've combined cutting-edge design, eco-friendly practices,
+              and community enhancement to craft a unique and vibrant
+              environment. This project embodies our commitment to quality,
+              innovation, and contributing to the growth and prosperity of the
+              region.
             </p>
           </div>
         </div>
 
         <div className="w-full">
-          <img src={taraba3} alt="portfolio image" />
+          <img src={bluewater1} alt="portfolio image" />
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-3">
           <div className="w-full lg:w-1/2">
-            <img src={taraba2} alt="portfolio image" />
+            <img src={bluewater4} alt="portfolio image" />
           </div>
 
           <div className="w-full lg:w-1/2">
-            <img src={taraba1} alt="portfolio image" />
+            <img src={bluewater3} alt="portfolio image" />
           </div>
         </div>
       </section>
@@ -160,41 +125,36 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
-          PAMANGA-DAKKA ROAD, BALI L.G.A, TARABA STATE
+          FARMYARD NIG LTD'S PHC TRAINING PROGRAM: SUDELETTRA TRAINING 1
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
-            <img src={project2a} alt="portfolio image" />
+            <img src={train1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
             <p>
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              project The road is a major connector from the Federal Capital
-              Territory to the North Central state of Kogi and the Southern part
-              of the country. The length of the reconstruction is about
-              49.362km, of the dualized road. The works include the
-              Reconstruction of a 49km single carriageway of 11.85m width. It
-              shall be made up of, 150 mm regulation stone base as sub-base, 200
-              mm crushed stone base, 60mm asphaltic concrete binder course, 60mm
-              MB asphaltic concrete binder course, and 40mm MB asphaltic
-              concrete wearing course. This also includes the construction of
-              side drains and box culverts as required.
+              FARMYARD NIG LTD's PHC Training Program, SUDELETTRA Training 1, is
+              a specialized training initiative designed to provide essential
+              skills and knowledge in Port Harcourt (PHC). This program offers
+              valuable insights and competencies relevant to the specific needs
+              of the region.
             </p>
           </div>
         </div>
 
         <div className="w-full">
-          <img src={project2b} alt="portfolio image" />
+          <img src={train2} alt="portfolio image" />
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-3">
           <div className="w-full lg:w-1/2">
-            <img src={project2c} alt="portfolio image" />
+            <img src={train3} alt="portfolio image" />
           </div>
 
           <div className="w-full lg:w-1/2">
-            <img src={taraba1} alt="portfolio image" />
+            <img src={train4} alt="portfolio image" />
           </div>
         </div>
       </section>
@@ -202,155 +162,161 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
-          PAMANGA-DAKKA ROAD, BALI L.G.A, TARABA STATE
+          SERVICE ASSEMBLY OFFERED BY FARMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
-            <img src={project3a} alt="portfolio image" />
+            <img src={assemble} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
             <p>
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              project essentially entails the CONSTRUCTION OF PAMANGA – DAKKA
-              ROAD. The road network comprises of a single carriageway of 12.8m
-              width and approximately 35.9Km length, along the existing road
-              alignment. It shall be made up of 200mm lateritic sub-base, 150mm
-              stone base on the carriageway and 40mm asphaltic concrete wearing
-              course. There shall also be an extensive construction of lined
-              drains and culverts of various shapes and sizes.
+              FARMYARD NIG LTD offers a comprehensive service assembly that
+              caters to various needs and requirements. Our expertise and
+              resources enable us to efficiently assemble a wide range of
+              services, providing convenience and satisfaction for our clients.
+              This service assembly is utilized for streamlining processes,
+              optimizing resource allocation, and enhancing overall operational
+              efficiency.
             </p>
           </div>
         </div>
 
         <div className="w-full">
-          <img src={project3c} alt="portfolio image" />
+          <img src={assemble2} alt="portfolio image" />
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-3">
           <div className="w-full lg:w-1/2">
-            <img src={taraba2} alt="portfolio image" />
+            <img src={assemble3} alt="portfolio image" />
           </div>
 
           <div className="w-full lg:w-1/2">
-            <img src={taraba1} alt="portfolio image" />
+            <img src={assemble} alt="portfolio image" />
           </div>
         </div>
       </section>
 
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
-        <h2 className="font-bold">
-          PAMANGA-DAKKA ROAD, BALI L.G.A, TARABA STATE
-        </h2>
+        <h2 className="font-bold">7UP Truck Park BY FARMYARD NIG LTD</h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
-            <img src={project3a} alt="portfolio image" />
+            <img src={up1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
             <p>
-              <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
+              <span className="font-bold">DATE OF AWARD: 2014 - 2015</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              project essentially entails the CONSTRUCTION OF PAMANGA – DAKKA
-              ROAD. The road network comprises of a single carriageway of 12.8m
-              width and approximately 35.9Km length, along the existing road
-              alignment. It shall be made up of 200mm lateritic sub-base, 150mm
-              stone base on the carriageway and 40mm asphaltic concrete wearing
-              course. There shall also be an extensive construction of lined
-              drains and culverts of various shapes and sizes.
+              FARMYARD's "7UP Truck Park" project, undertaken in 2014-2015 for
+              our valued client, Ranjy Construction & Foundation Limited,
+              showcased our expertise in engineering services. The project
+              involved the implementation of a comprehensive system that
+              included single-sided formwork, top 50 slab formwork, floor props,
+              and timber formwork. Our choice of materials, such as Eurex props,
+              H20 beams, and 350 sheets, ensured the structural integrity and
+              durability of the project. The "7UP Truck Park" exemplifies our
+              commitment to delivering high-quality, reliable solutions and
+              reflects our dedication to excellence in construction and
+              engineering.
             </p>
           </div>
         </div>
 
         <div className="w-full">
-          <img src={project4a} alt="portfolio image" />
+          <img src={up2} alt="portfolio image" />
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-3">
           <div className="w-full lg:w-1/2">
-            <img src={project4b} alt="portfolio image" />
+            <img src={up3} alt="portfolio image" />
           </div>
 
           <div className="w-full lg:w-1/2">
-            <img src={taraba1} alt="portfolio image" />
+            <img src={up4} alt="portfolio image" />
           </div>
         </div>
       </section>
 
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
-        <h2 className="font-bold">
-          PAMANGA-DAKKA ROAD, BALI L.G.A, TARABA STATE
+        <h2 className="font-bold uppercase">
+        Zenith Bank Building: A Vision of Modern Banking Excellence by FARMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
-            <img src={completed2} alt="portfolio image" />
+            <img src={zenith1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
             <p>
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              project essentially entails the CONSTRUCTION OF PAMANGA – DAKKA
-              ROAD. The road network comprises of a single carriageway of 12.8m
-              width and approximately 35.9Km length, along the existing road
-              alignment. It shall be made up of 200mm lateritic sub-base, 150mm
-              stone base on the carriageway and 40mm asphaltic concrete wearing
-              course. There shall also be an extensive construction of lined
-              drains and culverts of various shapes and sizes.
+              FARMYARD NIG LTD is excited to introduce "Zenith," a remarkable
+              building constructed for a prominent bank. This project
+              exemplifies our relentless pursuit of excellence and
+              forward-thinking. "Zenith" represents a significant milestone in
+              our journey to create sustainable and visionary developments for
+              our valued clients. In the "Zenith" project, we've combined
+              cutting-edge design, eco-friendly practices, and community
+              enhancement to craft a unique and vibrant structure. This building
+              embodies our commitment to quality, innovation, and contributing
+              to the growth and prosperity of the region.
             </p>
           </div>
         </div>
 
         <div className="w-full">
-          <img src={completed3} alt="portfolio image" />
+          <img src={zenith6} alt="portfolio image" />
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-3">
           <div className="w-full lg:w-1/2">
-            <img src={completed3} alt="portfolio image" />
+            <img src={zenith5} alt="portfolio image" />
           </div>
 
           <div className="w-full lg:w-1/2">
-            <img src={completed3} alt="portfolio image" />
+            <img src={zenith5} alt="portfolio image" />
           </div>
         </div>
       </section>
 
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
-        <h2 className="font-bold">
-          PAMANGA-DAKKA ROAD, BALI L.G.A, TARABA STATE
+        <h2 className="font-bold uppercase">
+          Salvation Ministries BY FARMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
-            <img src={completed2} alt="portfolio image" />
+            <img src={salvation1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
             <p>
-              <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
+              <span className="font-bold">DATE OF AWARD: YEAR 2015</span>{' '}
               <br></br>{' '}
-              <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              project essentially entails the CONSTRUCTION OF PAMANGA – DAKKA
-              ROAD. The road network comprises of a single carriageway of 12.8m
-              width and approximately 35.9Km length, along the existing road
-              alignment. It shall be made up of 200mm lateritic sub-base, 150mm
-              stone base on the carriageway and 40mm asphaltic concrete wearing
-              course. There shall also be an extensive construction of lined
-              drains and culverts of various shapes and sizes.
+              <span className="font-bold"> PROJECT DESCRIPTION: </span>The The
+              "Salvation Ministries" project in 2015, highlighted FARMYARD's
+              exceptional engineering services. Our team provided professional
+              assembly and shop services, focusing on the implementation of the
+              top 50 system for curved walls. The use of high-quality materials,
+              specifically FRAMI XLIFE, ensured the project's structural
+              integrity and longevity. This project reflects our commitment to
+              delivering precision engineering solutions for a diverse range of
+              applications.
             </p>
           </div>
         </div>
 
         <div className="w-full">
-          <img src={completed6} alt="portfolio image" />
+          <img src={salvation3} alt="portfolio image" />
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-3">
           <div className="w-full lg:w-1/2">
-            <img src={completed7} alt="portfolio image" />
+            <img src={salvation4} alt="portfolio image" />
           </div>
 
           <div className="w-full lg:w-1/2">
-            <img src={completed7} alt="portfolio image" />
+            <img src={salvation5} alt="portfolio image" />
           </div>
         </div>
       </section>

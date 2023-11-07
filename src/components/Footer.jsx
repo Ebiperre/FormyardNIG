@@ -79,7 +79,7 @@ function Footer() {
     //   </div>
     // </footer    >
 
-    <footer className="flexCenter mb-24">
+    <footer className="flexCenter mb-24 ">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col item-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mg-10">
@@ -104,7 +104,7 @@ function Footer() {
             </div>
           ))}
 
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 ">
             <div>
               {FOOTER_CONTACT_INFO.title}
               {FOOTER_CONTACT_INFO.links.map((link) => (
