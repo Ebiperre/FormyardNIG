@@ -94,6 +94,8 @@ export const CLIENTS = [
 export const FOOTER_LINKS = [
     {
         title: 'Portfolio',
+        key: 'portfolio',
+        href: '/portfolio', 
         links: [
             'Lekki Blue waters',
             'Formyard Training Program', 
@@ -102,6 +104,8 @@ export const FOOTER_LINKS = [
     },
     {
         title: 'About',
+        key: 'about',
+        href: '/about',
         links: [
             'Our Vision',
             'Our Mission'
@@ -109,6 +113,8 @@ export const FOOTER_LINKS = [
     },
     {
         title: 'Help',
+        key: 'contact',
+        href: '/contact',
         links: [
             'Contact Us',
             'FAQ'

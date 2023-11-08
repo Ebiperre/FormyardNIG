@@ -50,7 +50,9 @@ const Hero = () => {
             </p>
             <div>
               <button className="rounded-full text-black text-base font-bold text-start bg-[#FFDD00] px-12  py-3">
-                contact us
+                <Link to="/contact">
+                  contact us
+                </Link>
               </button>
             </div>
           </div>
