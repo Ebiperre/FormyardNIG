@@ -14,7 +14,9 @@ const Navigation = () => {
       <ul className="hidden h-full gap-12 lg:flex  ">
         <li>
           <div className="w-[120px]">
+            <Link to="/">
             <img src={logo} alt="logo image" />
+            </Link>
           </div>
         </li>
         {NAV_LINKS.map((link) => (
@@ -25,7 +27,9 @@ const Navigation = () => {
 
       <div className="gap-7 lg:gap-12 lg:flexEnd flexBetween w-full">
         <div className="w-[120px] lg:hidden flexBetween">
-          <img src={logo} alt="logo image" />
+        <Link to="/">
+            <img src={logo} alt="logo image" />
+            </Link>
         </div>
 
         <div className='relative'>
