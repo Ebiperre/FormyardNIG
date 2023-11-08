@@ -49,7 +49,7 @@ const Navigation = () => {
           <ul className="flex flex-col items-start  h-fit space-y-2 absolute text-left right-2 top-14 bg-white  py-4 px-6 rounded-md lg:hidden ">
           {NAV_LINKS.map((link) => (
             <Link
-              href={link.href}
+              to={link.href}
               key={link.key}
               className="font-bold flexCenter cursor-pointer pb-1.5 transition-all"
             >
