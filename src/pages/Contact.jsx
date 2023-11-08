@@ -46,17 +46,17 @@ function Contact() {
         </div>
         <div className='flex flex-col gap-5 mt-0 lg:-mt-[105px]'>
           {/* card items */}
-          <div className='shadow p-8 rounded-xl  flex-col flexCenter border border-[#FD0]'>
+          <div className='shadow p-8 rounded-xl  flex-col flexCenter border bg-[#FD0] '>
             <h2 className=' text-xl font-bold w-[182.216px]'>Get directions to our office</h2>
-            <p className='w-[209.544px] regular-18 pl-[14px] text-gray-30'>20 Igbodo Street Old GRA Port Harcourt.</p>
+            <p className='w-[209.544px] regular-18 pl-[14px]'>20 Igbodo Street Old GRA Port Harcourt.</p>
           </div>
-          <div className='shadow p-8 rounded-xl flex-col flexCenter border border-[#FD0]'>
+          <div className='shadow p-8 rounded-xl flex-col flexCenter border bg-[#FD0]'>
             <h2 className='text-xl font-bold'>Contact our support team</h2>
-            <p className="regular-18 text-gray-30">+2348037079584</p>
+            <p className="regular-18 ">+2348037079584</p>
           </div>
-          <div className='shadow p-8 rounded-xl flex-col flexCenter border border-[#FD0]'>
+          <div className='shadow p-8 rounded-xl flex-col flexCenter border bg-[#FD0]'>
             <h2 className=' text-xl font-bold '>Send us an email</h2>
-            <p className="regular-18 text-gray-30 ">info@crewtechng.com.</p>
+            <p className="regular-18 ">info@crewtechng.com.</p>
           </div>
         </div>
       </div>
