@@ -43,7 +43,10 @@ const Navigation = () => {
         <div className="gap-1 lg:flex hidden">
           <PiEnvelope size={24} />
           <h2 className="font-normal regular-12 lg:regular-16">
+            <Link to="mailto:Kevork@formyardnig.com">
             Kevork@formyardnig.com
+            </Link>
+            
           </h2>
         </div>
       </div>
