@@ -86,8 +86,7 @@ function Footer() {
             <img
               src={logo}
               alt="logo"
-              width={74}
-              height={29} />
+              width={104} />
           </Link>
         </div>
 
