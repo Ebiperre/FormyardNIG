@@ -83,7 +83,7 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
-          LEKKI BLUE WATERS 2018 BY FARMYARD NIG LTD
+          LEKKI BLUE WATERS 2018 BY FORMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
@@ -93,7 +93,7 @@ const Portfolio = () => {
             <p>
               <span className="font-bold">DATE OF AWARD: 2018</span> <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              FARMYARD NIG LTD is excited to introduce "LEKKI BLUE WATERS 2018,"
+              FORMYARD NIG LTD is excited to introduce "LEKKI BLUE WATERS 2018,"
               a project that exemplifies our relentless pursuit of excellence
               and forward-thinking. This initiative in the Lekki Blue Waters
               area represents a significant milestone in our journey to create
@@ -124,7 +124,7 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
-          FARMYARD NIG LTD'S PHC TRAINING PROGRAM: SUDELETTRA TRAINING 1
+          FORMYARD NIG LTD'S PHC TRAINING PROGRAM: SUDELETTRA TRAINING 1
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
@@ -135,7 +135,7 @@ const Portfolio = () => {
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              FARMYARD NIG LTD's PHC Training Program, SUDELETTRA Training 1, is
+              FORMYARD NIG LTD's PHC Training Program, SUDELETTRA Training 1, is
               a specialized training initiative designed to provide essential
               skills and knowledge in Port Harcourt (PHC). This program offers
               valuable insights and competencies relevant to the specific needs
@@ -161,7 +161,7 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
-          SERVICE ASSEMBLY OFFERED BY FARMYARD NIG LTD
+          SERVICE ASSEMBLY OFFERED BY FORMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
@@ -172,7 +172,7 @@ const Portfolio = () => {
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              FARMYARD NIG LTD offers a comprehensive service assembly that
+              FORMYARD NIG LTD offers a comprehensive service assembly that
               caters to various needs and requirements. Our expertise and
               resources enable us to efficiently assemble a wide range of
               services, providing convenience and satisfaction for our clients.
@@ -199,7 +199,7 @@ const Portfolio = () => {
 
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
-        <h2 className="font-bold">7UP Truck Park BY FARMYARD NIG LTD</h2>
+        <h2 className="font-bold">7UP Truck Park BY FORMYARD NIG LTD</h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
             <img src={up1} alt="portfolio image" />
@@ -209,7 +209,7 @@ const Portfolio = () => {
               <span className="font-bold">DATE OF AWARD: 2014 - 2015</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              FARMYARD's "7UP Truck Park" project, undertaken in 2014-2015 for
+              FORMYARD's "7UP Truck Park" project, undertaken in 2014-2015 for
               our valued client, Ranjy Construction & Foundation Limited,
               showcased our expertise in engineering services. The project
               involved the implementation of a comprehensive system that
@@ -242,7 +242,7 @@ const Portfolio = () => {
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold uppercase">
           Zenith Bank Building: A Vision of Modern Banking Excellence by
-          FARMYARD NIG LTD
+          FORMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
@@ -253,7 +253,7 @@ const Portfolio = () => {
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
-              FARMYARD NIG LTD is excited to introduce "Zenith," a remarkable
+              FORMYARD NIG LTD is excited to introduce "Zenith," a remarkable
               building constructed for a prominent bank. This project
               exemplifies our relentless pursuit of excellence and
               forward-thinking. "Zenith" represents a significant milestone in
@@ -284,7 +284,7 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold uppercase">
-          Salvation Ministries BY FARMYARD NIG LTD
+          Salvation Ministries BY FORMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">
@@ -295,7 +295,7 @@ const Portfolio = () => {
               <span className="font-bold">DATE OF AWARD: YEAR 2015</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The The
-              "Salvation Ministries" project in 2015, highlighted FARMYARD's
+              "Salvation Ministries" project in 2015, highlighted FORMYARD's
               exceptional engineering services. Our team provided professional
               assembly and shop services, focusing on the implementation of the
               top 50 system for curved walls. The use of high-quality materials,
