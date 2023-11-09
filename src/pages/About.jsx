@@ -111,27 +111,27 @@ function About() {
       </section>
       <section className="bg-white padding-container max-container pb-20 md:hidden">
         <div className="lg:w-1/2 lg:ml-auto  ">
-          <h2 className="textPrimary text-2xl">Numbers</h2>
+          <h2 className=" text-2xl font-bold">Ranking</h2>
           {/* ROW ONE */}
           <div className="grid gap-4 w-full">
             <div className="flex justify-between">
               <div>
-                <h1 className="lg:regular-62 textPrimary">260+</h1>
+                <h1 className="lg:regular-62 ">260+</h1>
                 <p>Projects Completed</p>
               </div>
               <div>
-                <h1 className="lg:regular-62 textPrimary">95%</h1>
+                <h1 className="lg:regular-62 ">95%</h1>
                 <p>Satisfaction Rate</p>
               </div>
             </div>
             <div>
               <div className="flex justify-between">
                 <div>
-                  <h1 className="lg:regular-62 textPrimary">200+</h1>
+                  <h1 className="lg:regular-62 ">200+</h1>
                   <p>Satisfied Clients</p>
                 </div>
                 <div>
-                  <h1 className="lg:regular-62 textPrimary">150+</h1>
+                  <h1 className="lg:regular-62 ">150+</h1>
                   <p>Qualified Engineers</p>
                 </div>
               </div>

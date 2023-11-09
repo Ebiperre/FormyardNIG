@@ -80,7 +80,7 @@ const Portfolio = () => {
           </div>
         </div>
       </header>
-      <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
+      <section className="px-5  py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
           LEKKI BLUE WATERS 2018 BY FORMYARD NIG LTD
@@ -90,9 +90,9 @@ const Portfolio = () => {
             <img src={bluewater1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
-            <p>
+            <p className='font-normal text-[14px] md:text-[16px] md:text-left  text-center' >
               <span className="font-bold">DATE OF AWARD: 2018</span> <br></br>{' '}
-              <span className="font-bold"> PROJECT DESCRIPTION: </span>The
+              <span className="font-bold text-center lg:text-left"> PROJECT DESCRIPTION: </span>The
               FORMYARD NIG LTD is excited to introduce "LEKKI BLUE WATERS 2018,"
               a project that exemplifies our relentless pursuit of excellence
               and forward-thinking. This initiative in the Lekki Blue Waters
@@ -121,7 +121,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
+      <section className="px-5   py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
           FORMYARD NIG LTD'S PHC TRAINING PROGRAM: SUDELETTRA TRAINING 1
@@ -130,11 +130,11 @@ const Portfolio = () => {
           <div className="w-full lg:w-1/2 ">
             <img src={train1} alt="portfolio image" />
           </div>
-          <div className="w-full lg:w-1/2">
-            <p>
+          <div className="w-full lg:w-1/2 text-center md:text-left">
+            <p className='font-normal text-[14px] md:text-[16px] md:text-left  text-center'>
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
-              <span className="font-bold"> PROJECT DESCRIPTION: </span>The
+              <span className="font-bold "> PROJECT DESCRIPTION: </span>The
               FORMYARD NIG LTD's PHC Training Program, SUDELETTRA Training 1, is
               a specialized training initiative designed to provide essential
               skills and knowledge in Port Harcourt (PHC). This program offers
@@ -145,7 +145,7 @@ const Portfolio = () => {
         </div>
 
         <div className="w-full">
-          <img src={train2} alt="portfolio image" />
+          <img src={train5} alt="portfolio image" />
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-3">
           <div className="w-full lg:w-1/2">
@@ -158,7 +158,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
+      <section className=" px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
           SERVICE ASSEMBLY OFFERED BY FORMYARD NIG LTD
@@ -168,7 +168,7 @@ const Portfolio = () => {
             <img src={assemble} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
-            <p>
+            <p  className='font-normal text-[14px] md:text-[16px] md:text-left  text-center'>
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
@@ -197,7 +197,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
+      <section className=" px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">7UP Truck Park BY FORMYARD NIG LTD</h2>
         <div className="flex flex-col lg:flex-row gap-4">
@@ -205,7 +205,7 @@ const Portfolio = () => {
             <img src={up1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
-            <p>
+            <p  className='font-normal text-[14px] md:text-[16px] md:text-left  text-center'>
               <span className="font-bold">DATE OF AWARD: 2014 - 2015</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
@@ -238,7 +238,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
+      <section className="px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold uppercase">
           Zenith Bank Building: A Vision of Modern Banking Excellence by
@@ -249,7 +249,7 @@ const Portfolio = () => {
             <img src={zenith1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
-            <p>
+            <p  className='font-normal text-[14px] md:text-[16px] md:text-left  text-center'>
               <span className="font-bold">DATE OF AWARD: JULY 2021</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The
@@ -281,7 +281,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
+      <section className="px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold uppercase">
           Salvation Ministries BY FORMYARD NIG LTD
@@ -291,7 +291,7 @@ const Portfolio = () => {
             <img src={salvation1} alt="portfolio image" />
           </div>
           <div className="w-full lg:w-1/2">
-            <p>
+            <p  className='font-normal text-[14px] md:text-[16px] md:text-left  text-center'>
               <span className="font-bold">DATE OF AWARD: YEAR 2015</span>{' '}
               <br></br>{' '}
               <span className="font-bold"> PROJECT DESCRIPTION: </span>The The

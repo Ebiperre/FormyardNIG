@@ -1,15 +1,16 @@
 import Heading from "./Heading";
 
 const data = [
-  { text: 'Structural Materials' },
-  { text: 'Finishing Materials' },
-  { text: 'Machinery and Equipment' },
-  { text: 'Safety Gear and Apparel' },
+  { text: 'Engineering Services ' },
+  { text: 'Formwork Instructor' },
+  { text: 'Reconditioning Services' },
+  { text: 'Ready to Use Services' },
 ];
 
 
 const heading = " Elevate Your Projects with Our Products"
-const text = "Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei,at nihil tantas platonem eos. Mazim nemore singulis an ius, nullamornatus nam ei." ;
+const text = "Formyard Nig Ltd: Elevating Excellence in Engineering – Offering Expert Formwork Instruction, Precision Reconditioning Services, and Ready-to-Use Solutions for Unparalleled Construction Success." ;
+
 
 const Services = () => {
   return (

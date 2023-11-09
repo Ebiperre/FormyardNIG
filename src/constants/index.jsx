@@ -1,4 +1,12 @@
 import logo from '../assets/Logo.png';
+import train1 from '../assets/portfolio/training1.jpg';
+import train2 from '../assets/portfolio/training2.jpg';
+import train3 from '../assets/portfolio/training3.jpg';
+
+import up1 from '../assets/portfolio/7up2.webp';
+// import up2 from '../assets/portfolio/7up5.webp';
+import up3 from '../assets/portfolio/7up4.webp';
+
 
 
 //NAVIGATION
@@ -58,16 +66,19 @@ export const SERVICES = [
 //SOLUTIONS
 export const SOLUTIONS = [
     { 
-        heading: "Design and Planning Services", 
-        title: "Our expert design and planning services ensure meticulous execution" 
+        heading: "Engineering Services", 
+        title: "Transforming Visions into Reality with Cutting-edge Services" ,
+        image: up1
     },
     { 
-        heading: "Construction and Building", 
-        title: "From groundbreaking to finishing touches, we bring your vision to life with precision." 
+        heading: "Formwork Instructor", 
+        title: "Expert Guidance for Precision Engineering at Your Fingertips" ,
+        image: train3 
     },
     { 
-        heading: "Renovation and Remodeling", 
-        title: "Enhance existing spaces or rejuvenate structure with tailored solutions" 
+        heading: "Reconditioning Services", 
+        title: "Revitalize, Reinvent, Renew: Unmatched Reconditioning Services for Engineering Excellence",
+        image: up3 
     },
 ];
 
@@ -125,7 +136,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-        {label: 'Support team', value: '+2348037079584'},
+        {label: 'Support team', value: '0813 860 5060'},
         {label: 'Email', value: 'Kevork@formyardnig.com.'}
     ],
 };
