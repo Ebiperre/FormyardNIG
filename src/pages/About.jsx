@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BiPlayCircle} from "react-icons/bi"
+import { BiPlayCircle } from 'react-icons/bi';
 import blog from '../assets/pexels-freestocksorg-410730.jpg';
 import about2 from '../assets/about2.png';
 
@@ -34,8 +34,10 @@ function About() {
       <section className="bg-white padding-container max-container pb-20 mt-8 lg:mt-0">
         <div className="grid  gap-6  ">
           <div className="flex flex-col  lg:flex-row lg:py-10  lg:text-left gap-2  items-center      ">
-            <div className='lg:w-1/2 w-full'>
-              <h2 className="  text-3xl  text-center md:text-left ">Our Expertise</h2>
+            <div className="lg:w-1/2 w-full">
+              <h2 className="  text-3xl  text-center md:text-left ">
+                Our Expertise
+              </h2>
               <p className=" text-gray-30 mt-4 font-normal  mb-2 md:mb-0  text-center md:text-left lg:w-4/5">
                 We specialize in commercial and residential construction
                 projects, including new construction, renovations, and
@@ -45,20 +47,24 @@ function About() {
               </p>
             </div>
 
-            <div className='w-full lg:w-1/2' >
-              <img src={about3} alt="about image" className='lg:w-[500px] w-full' />
+            <div className="w-full lg:w-1/2">
+              <img
+                src={about3}
+                alt="about image"
+                className="lg:w-[500px] w-full"
+              />
             </div>
           </div>
 
-
-
-
           <div className="flex flex-col-reverse lg:flex-row  items-center gap-4 ">
-            <div className='lg:w-1/2'>
+            <div className="lg:w-1/2">
               <img src={about4} alt="about image" />
             </div>
             <div className="lg:py-10  lg:text-left lg:w-1/2 gap-4 ">
-              <h2 className=" text-3xl  text-center md:text-left"> Our Process</h2>
+              <h2 className=" text-3xl  text-center md:text-left">
+                {' '}
+                Our Process
+              </h2>
               <p className="mt-4   text-gray-30 text-center md:text-left lg:w-4/5">
                 We follow a rigorous process for every project we undertake,
                 from initial consultation to final inspection. Our team works
@@ -74,18 +80,18 @@ function About() {
           <div className="w-full ">
             <h2 className=" text-3xl  text-center md:text-left">Our Vision</h2>
             <p className=" text-gray-30  text-center md:text-left lg:w-4/5">
-              To be the premier global construction solutions provider, renowned
-              for our unwavering commitment to excellence, innovation, and
-              sustainable practices. We aspire to transform the construction
-              industry by setting new standards in engineering, formwork
-              systems, and training, while continually exceeding our
-              stakeholders' expectations.
+              To lead globally in formwork products solutions through unwavering
+              commitment to excellence, innovation, and sustainability. We aim
+              to redefine formwork systems, engineering, and training,
+              surpassing stakeholders' expectations.
             </p>
           </div>
           <div className="w-full ">
-            <h2 className=" text-3xl  text-center md:text-left">Our Solutions</h2>
-            <p className='mt-4 text-gray-30  text-center md:text-left lg:w-4/5'>
-            At Formyard, we are dedicated to delivering exceptional construction solutions that empower our clients to build the future. We are committed to safety, sustainability, and customer satisfaction in every project we undertake. Our relentless pursuit of innovation, quality, and client partnership fuels our mission to shape a better, more efficient future for the construction industry.
+            <h2 className=" text-3xl  text-center md:text-left">
+              Our Mission
+            </h2>
+            <p className="mt-4 text-gray-30  text-center md:text-left lg:w-4/5">
+            We're committed to providing top-notch formwork solutions, empowering clients to shape the future with a focus on safety, sustainability, and customer satisfaction in every project.
             </p>
           </div>
         </div>
@@ -95,7 +101,7 @@ function About() {
           style={{ backgroundImage: `url(${about2})` }}
           className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row h-[300px] lg:h-[300px] bg-cover bg-center "
         >
-          <div className='flex flex-col lg:flex-row   items-start w-full justify-center'>
+          <div className="flex flex-col lg:flex-row   items-start w-full justify-center">
             <h2 className="lg:regular-72 bold-28 text-white text-left   mt-auto">
               <span className="textPrimary">Passionate </span>
               <br /> and Sustainable
@@ -133,7 +139,6 @@ function About() {
           </div>
         </div>
       </section>
-
     </div>
   );
 }

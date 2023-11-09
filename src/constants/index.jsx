@@ -126,6 +126,6 @@ export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
         {label: 'Support team', value: '+2348037079584'},
-        {label: 'Email', value: 'info@crewtechng.com.'}
+        {label: 'Email', value: 'Kevork@formyardnig.com.'}
     ],
 };

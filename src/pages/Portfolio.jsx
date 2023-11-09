@@ -66,7 +66,6 @@ import salvation3 from '../assets/portfolio/salvation3.webp';
 import salvation4 from '../assets/portfolio/salvation4.webp';
 import salvation5 from '../assets/portfolio/salvation5.webp';
 
-
 const Portfolio = () => {
   return (
     <div>
@@ -242,7 +241,8 @@ const Portfolio = () => {
       <section className="py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold uppercase">
-        Zenith Bank Building: A Vision of Modern Banking Excellence by FARMYARD NIG LTD
+          Zenith Bank Building: A Vision of Modern Banking Excellence by
+          FARMYARD NIG LTD
         </h2>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="w-full lg:w-1/2 ">

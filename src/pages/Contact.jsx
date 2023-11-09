@@ -48,15 +48,15 @@ function Contact() {
           {/* card items */}
           <div className='shadow p-8 rounded-xl  flex-col flexCenter border bg-[#FD0] '>
             <h2 className=' text-xl font-bold w-[182.216px]'>Get directions to our office</h2>
-            <p className='w-[209.544px] regular-18 pl-[14px]'>20 Igbodo Street Old GRA Port Harcourt.</p>
+            <p className='w-[209.544px] regular-18 pl-[14px]'>Block 101, Plot 21, Adewunmi Adebimpe Drive, Off Marwa Bus Stop, Lekki 1, Lagos | Nigeria</p>
           </div>
           <div className='shadow p-8 rounded-xl flex-col flexCenter border bg-[#FD0]'>
             <h2 className='text-xl font-bold'>Contact our support team</h2>
-            <p className="regular-18 ">+2348037079584</p>
+            <p className="regular-18 "> +234 (0)813 860 5060</p>
           </div>
           <div className='shadow p-8 rounded-xl flex-col flexCenter border bg-[#FD0]'>
             <h2 className=' text-xl font-bold '>Send us an email</h2>
-            <p className="regular-18 ">info@crewtechng.com.</p>
+            <p className="regular-18 ">Kevork@formyardnig.com</p>
           </div>
         </div>
       </div>
