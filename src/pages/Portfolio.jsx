@@ -52,9 +52,21 @@ import eko4 from '../assets/portfolio/Eko4.jpg';
 import eko5 from '../assets/portfolio/Eko5.jpg';
 import eko6 from '../assets/portfolio/Eko6.jpg';
 
+
+//fav
+import fav1 from '../assets/portfolio/fav1.jpeg';
+import fav2 from '../assets/portfolio/fav2.jpeg';
+import fav3 from '../assets/portfolio/fav3.jpeg';
+import fav4 from '../assets/portfolio/fav4.jpeg';
+import fav5 from '../assets/portfolio/fav5.jpg';
+import fav6 from '../assets/portfolio/fav6.jpg';
+
+
+
+
 //rail
 import rail1 from '../assets/portfolio/rail1.jpg';
-import rail2 from '../assets/portfolio/rail2.jpg';
+// import rail2 from '../assets/portfolio/rail2.jpg';
 import rail3 from '../assets/portfolio/rail3.jpg';
 import rail4 from '../assets/portfolio/rail4.jpg';
 
@@ -80,6 +92,50 @@ const Portfolio = () => {
           </div>
         </div>
       </header>
+
+      {/* the favourite */}
+      <section className="px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
+        <h2 className="text-xl">COMPLETED PROJECT</h2>
+        <h2 className="font-bold uppercase">
+          {/* Salvation Ministries BY FORMYARD NIG LTD */}
+          FAVOURITE
+        </h2>
+        <div className="flex flex-col lg:flex-row gap-4">
+          <div className="w-full lg:w-1/2 ">
+            <img src={fav6} alt="portfolio image" />
+          </div>
+          <div className="w-full lg:w-1/2">
+            <p  className='font-normal text-[14px] md:text-[16px] md:text-left  text-center'>
+              <span className="font-bold">DATE OF AWARD: YEAR 2015</span>{' '}
+              <br></br>{' '}
+              <span className="font-bold"> PROJECT DESCRIPTION: </span>The The
+              "Salvation Ministries" project in 2015, highlighted FORMYARD's
+              exceptional engineering services. Our team provided professional
+              assembly and shop services, focusing on the implementation of the
+              top 50 system for curved walls. The use of high-quality materials,
+              specifically FRAMI XLIFE, ensured the project's structural
+              integrity and longevity. This project reflects our commitment to
+              delivering precision engineering solutions for a diverse range of
+              applications.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full">
+          <img src={fav3} alt="portfolio image" />
+        </div>
+        <div className="flex w-full flex-col lg:flex-row gap-3">
+          <div className="w-full lg:w-1/2">
+            <img src={fav5} alt="portfolio image" />
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <img src={fav5} alt="portfolio image" />
+          </div>
+        </div>
+      </section>
+
+
       <section className="px-5  py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold">
@@ -320,6 +376,8 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
+
+      
     </div>
   );
 };
