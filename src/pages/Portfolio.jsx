@@ -63,6 +63,11 @@ import salvation3 from '../assets/portfolio/salvation3.webp';
 import salvation4 from '../assets/portfolio/salvation4.webp';
 import salvation5 from '../assets/portfolio/salvation5.webp';
 
+import towers1 from '../assets/portfolio/towers1.jpg';
+import towers2 from '../assets/portfolio/towers2.jpg';
+import towers3 from '../assets/portfolio/towers3.jpg';
+import towers4 from '../assets/portfolio/towers4.jpg';
+
 const Portfolio = () => {
   return (
     <div>
@@ -77,24 +82,50 @@ const Portfolio = () => {
           </div>
         </div>
       </header>
-      <div className='text-center'>
-        Some of our favourite projects
-        <div>
-          <button>
-            All
-          </button>
-          <button>
-            construction
-          </button>
-          <button>
-            Building
-          </button>
-        </div>
-      </div>
-
-      {/* the favourite */}
       <section className="px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
-        <h2 className="text-xl">COMPLETED PROJECT</h2>
+        <h2 className="text-xl">BUILDING  PROJECTS</h2>
+        <h2 className="font-bold uppercase">
+        Azuri towers
+        </h2>
+        <div className="flex flex-col lg:flex-row gap-4">
+          <div className="w-full lg:w-1/2 ">
+            <img src={towers4} alt="portfolio image" />
+          </div>
+          <div className="w-full lg:w-1/2">
+            <p className="font-normal text-[14px] md:text-[16px] md:text-left  text-center">
+              {/* <span className="font-bold">DATE OF AWARD: YEAR 2015</span>{' '} */}
+              <br></br>{' '}
+              <span className="font-bold"> PROJECT DESCRIPTION: </span>
+              Formyard  Ltd spearheaded the NLNG Phase 2 Project in Bonny,
+              Port Harcourt, comprising the construction of 72 Apartment Type RA
+              Housing Units. Leveraging advanced systems like Dokadek 30 with
+              Drop Heads and Framed Formwork Frami Eco, Formyard  Ltd
+              showcased its commitment to innovation and precision in
+              large-scale construction. This project not only adds significant
+              housing infrastructure to Bonny but also underscores Formyard 
+              Ltd's reputation for excellence in the construction industry.
+            </p>
+          </div>
+        </div>
+
+        <div className="w-full">
+          <img src={towers3} alt="portfolio image" />
+        </div>
+        <div className="flex w-full flex-col lg:flex-row gap-3">
+          <div className="w-full lg:w-1/2">
+            <img src={towers3} alt="portfolio image" />
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <img src={towers4} alt="portfolio image" />
+          </div>
+        </div>
+      </section>
+
+  
+
+      <section className="px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
+        <h2 className="text-xl">BUILDING  PROJECTS</h2>
         <h2 className="font-bold uppercase">
         NLNG Phase 2: Formyard's Excellence in RA Housing Construction
         </h2>
@@ -134,7 +165,7 @@ const Portfolio = () => {
       </section>
 
       <section className="px-5  py-8 container lg:px-36 mx-auto space-y-2 ">
-        <h2 className="text-xl">COMPLETED PROJECT</h2>
+      <h2 className="text-xl">BUILDING  PROJECTS</h2>
         <h2 className="font-bold">
           LEKKI BLUE WATERS 2018 BY FORMYARD  LTD
         </h2>
@@ -178,7 +209,7 @@ const Portfolio = () => {
       </section>
 
       <section className="px-5   py-8 container lg:px-36 mx-auto space-y-2 ">
-        <h2 className="text-xl">COMPLETED PROJECT</h2>
+        <h2 className="text-xl">TRAINING CONDUCTED BY FORMYARD </h2>
         <h2 className="font-bold">
           FORMYARD  LTD'S PHC TRAINING PROGRAM: SUDELETTRA TRAINING 1
         </h2>
@@ -271,7 +302,7 @@ const Portfolio = () => {
               involved the implementation of a comprehensive system that
               included single-sided formwork, top 50 slab formwork, floor props,
               and timber formwork. Our choice of materials, such as Eurex props,
-              H20 beams, and 350 sheets, ensured the structural integrity and
+              H20 beams, and 3-SO  sheets, ensured the structural integrity and
               durability of the project. The "7UP Truck Park" exemplifies our
               commitment to delivering high-quality, reliable solutions and
               reflects our dedication to excellence in construction and
