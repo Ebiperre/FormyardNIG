@@ -10,17 +10,17 @@ const Clients = () => {
 
   const data = [
     {
-      text: 'Et vim graeco principes. Cu dico nullam pri stet possim quaerendum invenire platonem animal assentior nam.',
-      name: 'Amelia Edwards',
+      text: "Formyard Ltd's services surpassed expectations. Their expertise and innovation in large-scale construction, demonstrated through advanced systems like Dokadek 30, showcased a commitment to excellence. Meticulous attention to detail and unwavering professionalism marked their approach, solidifying Formyard Ltd as a top-tier construction partner. We highly recommend their outstanding services for any project.",
+      name:"Formyard Ltd's services surpassed expectations. Their expertise and innovation in large-scale construction, demonstrated through advanced systems like Dokadek 30, showcased a commitment to excellence. Meticulous attention to detail and unwavering professionalism marked their approach, solidifying Formyard Ltd as a top-tier construction partner. We highly recommend their outstanding services for any project.",
       company: 'Google Inc',
     },
     {
-      text: 'Nam natum volutpat eu. Natum elitr vel te. Id qui purto dicit, bonorum minimum et sit assum tation homero.',
+      text:"Formyard Ltd's services surpassed expectations. Their expertise and innovation in large-scale construction, demonstrated through advanced systems like Dokadek 30, showcased a commitment to excellence. Meticulous attention to detail and unwavering professionalism marked their approach, solidifying Formyard Ltd as a top-tier construction partner. We highly recommend their outstanding services for any project.",
       name: 'Darika Samak',
       company: 'Apple',
     },
     {
-      text: 'Et vim graeco principes. Cu dico nullam pri stet possim quaerendum invenire platonem animal assentior nam.',
+      text:"Formyard Ltd's services surpassed expectations. Their expertise and innovation in large-scale construction, demonstrated through advanced systems like Dokadek 30, showcased a commitment to excellence. Meticulous attention to detail and unwavering professionalism marked their approach, solidifying Formyard Ltd as a top-tier construction partner. We highly recommend their outstanding services for any project.",
       name: 'Darika Samak',
       company: 'Microsoft',
     },

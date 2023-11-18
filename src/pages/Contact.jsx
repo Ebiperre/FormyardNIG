@@ -4,39 +4,44 @@ import logo from '../assets/Logo.png';
 import map from '../assets/map.png';
 import { Outlet, Link } from 'react-router-dom';
 
+import fav6 from '../assets/portfolio/fav6.jpg';
+
+
 import { AiOutlineMenu } from 'react-icons/ai';
 
 
 function Contact() {
   return (
     <div>
-    <header
-      style={{ backgroundImage: `url(${contact})` }}
-      className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
-    >
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        {/* <div className=" w-full flexBetween pt-2">
-          <div className="w-24">
-            <Link to={`/`} className="font-bold">
-              <img src={logo} />
-            </Link>
-          </div>
-          <button className="bg-white text-black rounded-full p-2">
-            <AiOutlineMenu size={20} />
-          </button>
-        </div> */}
-
-        {/* CTA */}
-        <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
-          <h1 className=" bold-52 lg:bold-88 text-white">
+      
+      <div class="relative mx-auto ">
+        <div>
+          <img
+            src={fav6}
+            alt=""
+            className="h-screen w-full object-cover rounded-md"
+          />
+        </div>
+        <div class="absolute inset-0 bg-gray-700 opacity-60 "></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div className="flex  flex-1 item-start flex-col  justify-center lg:py-44  lg:gap-6  z-999 max-container 4xl:max-none padding-container   py-2 pb-32 gap-4 lg:pb-20 lg:pt-2  ">
+            <h1 className="bold-28 md:bold-52 lg:bold-88 text-white">
             Get in touch with us for more information
-          </h1>
-          <p className="text-white regular-14 lg:regular-20  ">
+            </h1>
+            <p className="text-white regular-14 lg:regular-20 lg:w-[570px]">
             If you need help or question, we’re here for you
-          </p>
+            </p>
+            <div>
+              {/* <button className="rounded-full text-black text-base font-bold text-start bg-[#FFDD00] px-12  py-3">
+                <Link to="/contact">
+                  Contact us
+                </Link>
+              </button> */}
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+  
     {/* conatct form */}
     <section className='relative padding-container max-container flex flex-col py-16 lg:py-44 gap-3 lg:gap-6'>
       <div className='flex flex-col lg:flex-row gap-3'>
@@ -103,3 +108,32 @@ function Contact() {
 }
 
 export default Contact;
+
+
+{/* <header
+style={{ backgroundImage: `url(${fav6})` }}
+className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
+>
+<div className="relative z-20 flex flex-1 flex-col xl:w-1/2"> */}
+  {/* <div className=" w-full flexBetween pt-2">
+    <div className="w-24">
+      <Link to={`/`} className="font-bold">
+        <img src={logo} />
+      </Link>
+    </div>
+    <button className="bg-white text-black rounded-full p-2">
+      <AiOutlineMenu size={20} />
+    </button>
+  </div> */}
+
+  {/* CTA */}
+//   <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
+//     <h1 className=" bold-52 lg:bold-88 text-white">
+//       Get in touch with us for more information
+//     </h1>
+//     <p className="text-white regular-14 lg:regular-20  ">
+//       If you need help or question, we’re here for you
+//     </p>
+//   </div>
+// </div>
+// </header>

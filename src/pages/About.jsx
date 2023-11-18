@@ -2,11 +2,12 @@ import React from 'react';
 
 import { BiPlayCircle } from 'react-icons/bi';
 import blog from '../assets/pexels-freestocksorg-410730.jpg';
-import about2 from '../assets/about2.png';
+// import about2 from '../assets/about2.png';
 
 import about1 from '../assets/about1.webp';
 import about3 from '../assets/about3.jpg';
 import about4 from '../assets/about4.webp';
+import about2 from '../assets/about2.webp'
 
 // import
 
@@ -49,7 +50,7 @@ function About() {
 
             <div className="w-full lg:w-1/2">
               <img
-                src={about3}
+                src={about2}
                 alt="about image"
                 className="lg:w-[500px] w-full"
               />

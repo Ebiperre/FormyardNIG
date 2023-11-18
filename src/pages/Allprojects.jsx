@@ -1,98 +1,8 @@
-import portfolio from '../assets/portfolio.png';
+import React from 'react'
 
-//training
-import train1 from '../assets/portfolio/training1.jpg';
-import train2 from '../assets/portfolio/training2.jpg';
-import train3 from '../assets/portfolio/training3.jpg';
-import train4 from '../assets/portfolio/training4.jpg';
-import train5 from '../assets/portfolio/training5.jpg';
-
-//7up
-
-import up1 from '../assets/portfolio/7up.webp';
-import up2 from '../assets/portfolio/7up2.webp';
-import up3 from '../assets/portfolio/7up3.webp';
-import up4 from '../assets/portfolio/7up4.webp';
-
-//assembling
-import assemble from '../assets/portfolio/asembling1.jpg';
-import assemble2 from '../assets/portfolio/asembling2.jpg';
-import assemble3 from '../assets/portfolio/asembling3.jpg';
-
-//bluwaters
-import bluewater1 from '../assets/portfolio/bluewaters1.webp';
-import bluewater2 from '../assets/portfolio/bluewaters2.webp';
-import bluewater3 from '../assets/portfolio/bluewaters3.webp';
-import bluewater4 from '../assets/portfolio/bluewaters4.webp';
-
-//zenith
-import zenith1 from '../assets/portfolio/Zenith1.webp';
-import zenith2 from '../assets/portfolio/Zenith2.webp';
-import zenith3 from '../assets/portfolio/Zenith3.webp';
-import zenith4 from '../assets/portfolio/Zenith4.webp';
-import zenith5 from '../assets/portfolio/Zenith5.webp';
-import zenith6 from '../assets/portfolio/zenith6.webp';
-
-//eko
-import eko1 from '../assets/portfolio/Eko1.jpg';
-import eko2 from '../assets/portfolio/Eko2.jpg';
-import eko3 from '../assets/portfolio/Eko3.jpg';
-import eko4 from '../assets/portfolio/Eko4.jpg';
-import eko5 from '../assets/portfolio/Eko5.jpg';
-import eko6 from '../assets/portfolio/Eko6.jpg';
-
-//fav
-import fav1 from '../assets/portfolio/fav1.jpeg';
-import fav2 from '../assets/portfolio/fav2.jpeg';
-import fav3 from '../assets/portfolio/fav3.jpeg';
-import fav4 from '../assets/portfolio/fav4.jpeg';
-import fav5 from '../assets/portfolio/fav5.jpg';
-import fav6 from '../assets/portfolio/fav6.jpg';
-
-//rail
-import rail1 from '../assets/portfolio/rail1.jpg';
-// import rail2 from '../assets/portfolio/rail2.jpg';
-import rail3 from '../assets/portfolio/rail3.jpg';
-import rail4 from '../assets/portfolio/rail4.jpg';
-
-//salvation
-
-import salvation1 from '../assets/portfolio/salvation1.webp';
-// import salvation2 from '../assets/portfolio/salvation2.JPG';
-import salvation3 from '../assets/portfolio/salvation3.webp';
-import salvation4 from '../assets/portfolio/salvation4.webp';
-import salvation5 from '../assets/portfolio/salvation5.webp';
-
-const Portfolio = () => {
+const Allprojects = () => {
   return (
-    <div>
-      <header
-        style={{ backgroundImage: `url(${portfolio})` }}
-        className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
-      >
-        <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-          {/* CTA */}
-          <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
-            <p className="text-white regular-14 lg:regular-20  ">Portfolio</p>
-          </div>
-        </div>
-      </header>
-      <div className='text-center'>
-        Some of our favourite projects
-        <div>
-          <button>
-            All
-          </button>
-          <button>
-            construction
-          </button>
-          <button>
-            Building
-          </button>
-        </div>
-      </div>
-
-      {/* the favourite */}
+    <>
       <section className="px-5 py-8 container lg:px-36 mx-auto space-y-2 ">
         <h2 className="text-xl">COMPLETED PROJECT</h2>
         <h2 className="font-bold uppercase">
@@ -376,8 +286,9 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
-};
+      
+    </>
+  )
+}
 
-export default Portfolio;
+export default Allprojects

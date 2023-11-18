@@ -9,7 +9,7 @@ const data = [
 
 
 const heading = " Elevate Your Projects with Our Products"
-const text = "Formyard Nig Ltd: Elevating Excellence in Engineering – Offering Expert Formwork Instruction, Precision Reconditioning Services, and Ready-to-Use Solutions for Unparalleled Construction Success." ;
+const text = "Formyard  Ltd: Elevating Excellence in Engineering – Offering Expert Formwork Instruction, Precision Reconditioning Services, and Ready-to-Use Solutions for Unparalleled Construction Success." ;
 
 
 const Services = () => {
