@@ -16,46 +16,6 @@ const Services = () => {
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[23px] mt-14  ">
         {SOLUTIONS.map((solution) => (
-          // <div
-          //   style={{ backgroundImage: `url(${Image})` }}
-          //   className="flex flex-col w-full justify-end gap-[20px] h-[320px] lg:h-[455px] w-[ 379px] bg-[#FFF3E3] rounded-xl px-3 py-6 bg-no-repeat bg-cover bg-center">
-
-          //   <div className="grid gap-4 text-white w-full  ">
-          //     <h2 className="font-bold text-[20px]  w-full">{solution.heading}</h2>
-          //     <p className='text-[14px]'>{solution.title}</p>
-          //   </div>
-          //   <div className='text-white flex items-center gap-1 '>
-          //     <a href="">Learn more</a>
-          //     <span> < AiOutlineArrowRight /></span>
-          //   </div>
-          // </div>
-        //   <div class="relative mx-auto ">
-        //   <div>
-        //     <img
-        //       src={Image}
-        //       alt=""
-        //       className=" h-[320px] lg:h-[455px] w-full object-cover rounded-md"
-        //     />
-        //   </div>
-        //   <div class="absolute inset-0 bg-gray-700 opacity-60 "></div>
-        //   <div class="absolute inset-0 flex items-center justify-center">
-        //     <div className="flex  flex-1 item-start flex-col  justify-center lg:py-44  lg:gap-6  z-999 max-container 4xl:max-none padding-container   py-2 pb-32 gap-4 lg:pb-20 lg:pt-2  ">
-        //       <h1 className="bold-28 md:bold-52 lg:bold-88 text-white">
-        //         BUILDING YOUR VISION
-        //       </h1>
-        //       <p className="text-white regular-14 lg:regular-20 lg:w-[570px]">
-        //         We bring your ideas to life with quality craftsmanship.
-        //       </p>
-        //       <div>
-        //         <button className="rounded-full text-black text-base font-bold text-start bg-[#FFDD00] px-12  py-3">
-        //           <Link to="/contact">
-        //             Contact us
-        //           </Link>
-        //         </button>
-        //       </div>
-        //     </div>
-        //   </div>
-        // </div>
         <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-4 pt-40 pb-3  md:px-4  lg:px-6  w-full   mb:pb-4 lg:pb-8 md:pt-60 lg:pt-80 max-w-sm mx-auto ">
           <img   src={solution.image} className="absolute inset-0 h-full w-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>

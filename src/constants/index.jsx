@@ -3,9 +3,28 @@ import train1 from '../assets/portfolio/training1.jpg';
 import train2 from '../assets/portfolio/training2.jpg';
 import train3 from '../assets/portfolio/training3.jpg';
 
+
+//testimonial images
+
+import test1 from '../assets/brands/test1 (2).jpg';
+import test2 from '../assets/brands/test2 (1).jpg';
+import test3 from '../assets/brands/test3 (1).jpg';
+
+import image2 from '../assets/image2.jpg';
+
 import up1 from '../assets/portfolio/7up2.webp';
 // import up2 from '../assets/portfolio/7up5.webp';
 import up3 from '../assets/portfolio/7up4.webp';
+import Brands from '../components/brands';
+
+
+
+// Brands
+import brand1 from '../assets/brands/eko-dev-logo.png';
+import brand2 from '../assets/brands/hi_tech-logo.jpeg';
+import brand3 from '../assets/brands/south_energy_logo-removebg-preview.png';
+import brand4 from '../assets/brands/megastar.png';
+import brand5 from '../assets/brands/eko.png';
 
 //NAVIGATION
 export const NAV_LINKS = [
@@ -69,7 +88,7 @@ export const SOLUTIONS = [
   {
     heading: 'Formwork Instructor',
     title: 'Expert Guidance for Precision Engineering at Your Fingertips',
-    image: train3,
+    image: image2,
   },
   {
     heading: 'Reconditioning Services',
@@ -82,20 +101,26 @@ export const SOLUTIONS = [
 //CLIENTS
 export const CLIENTS = [
   {
-    text: "Thanks for exceptional work on our downtown Minneapolis project, Formyard Ltd. Challenges met with professionalism and efficiency. Your team's proactive approach and viable solutions made the process smooth. From navigating downtown restrictions to managing a tight schedule, Formyard Ltd exceeded expectations. Looking forward to future collaborations!",
-    name: 'Amelia Edwards',
-    company: 'Google Inc',
+    text: 
+    "Exceptional work on our Minneapolis project, with Formyard Ltd. Challenges met with professionalism. Proactive solutions made the process smooth. Formyard Ltd exceeded expectations. Looking forward to future collaborations!",
+    name: 'Azuri Towers',
+    // company: 'Google Inc',
+    image: brand1,
   },
   {
-    text: 'Formyard Ltd consistently meets tight timelines and budgets, showcasing professionalism and respect for our business. Your responsive, transparent communication, and commitment to honesty make Formyard Ltd a reliable and trustworthy partner. The values from your leadership extend throughout the company, making us feel like valued clients.',
+    text: 
+    "Formyard Ltd consistently delivers within timelines and budgets, demonstrating professionalism and transparency. Your commitment to honesty and values from leadership make Formyard Ltd a reliable and valued partner.",
 
-    name: 'Darika Samak',
-    company: 'Apple',
+    name: 'South energy',
+    // company: 'Apple',
+    image: brand3,
   },
   {
-    text: "Formyard Ltd's professionals let me focus on behind-the-scenes tasks. Expertise, commitment, and skilled craftsmen, coupled with short notice flexibility, ease project management stress. Remarkable attention to detail and positive on-site feedback from our team characterize Formyard Ltd. Thanks for making project coordination seamless.",
-    name: 'Darika Samak',
-    company: 'Microsoft',
+    text: 
+    "They excels in behind-the-scenes tasks. Expertise, commitment, and skilled craftsmen, with short notice flexibility, alleviate project management stress. Remarkable attention to detail and positive on-site feedback make Formyard Ltd a trusted partner.",
+    name: 'Mega Star',
+    // company: 'Microsoft',
+    image: brand4,
   },
 ];
 

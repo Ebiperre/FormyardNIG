@@ -10,6 +10,7 @@ import about4 from '../assets/about4.webp';
 import about2 from '../assets/about2.webp'
 
 // import
+import eko3 from '../assets/portfolio/Eko3.jpg';
 
 import { Outlet, Link } from 'react-router-dom';
 
@@ -18,20 +19,33 @@ import { AiOutlineMenu } from 'react-icons/ai';
 function About() {
   return (
     <div>
-      <header
-        style={{ backgroundImage: `url(${blog})` }}
-        className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
-      >
-        <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-          {/* CTA */}
-          <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
-            <p className="text-white regular-14 lg:regular-20  ">About us</p>
-            <h1 className=" bold-28 text-center md:text-left lg:bold-88 text-white">
-              Passionate and Sustainable
+        <div class="relative mx-auto ">
+        <div>
+          <img
+            src={eko3}
+            alt=""
+            className="h-screen w-full object-cover rounded-md"
+          />
+        </div>
+        <div class="absolute inset-0 bg-gray-700 opacity-60 "></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div className="flex  flex-1 item-center flex-col  justify-center lg:py-44  lg:gap-6  z-999 max-container 4xl:max-none padding-container   py-2 pb-32 gap-4 lg:pb-20 lg:pt-2  ">
+            <h1 className="bold-28 md:bold-52 lg:bold-88 text-center text-white">
+            About us
             </h1>
+            <p className="text-white regular-14 lg:regular-20 text-center ">
+            Passionate and Sustainable
+            </p>
+            <div>
+              {/* <button className="rounded-full text-black text-base font-bold text-start bg-[#FFDD00] px-12  py-3">
+                <Link to="/contact">
+                  Contact us
+                </Link>
+              </button> */}
+            </div>
           </div>
         </div>
-      </header>
+      </div>
       <section className="bg-white padding-container max-container pb-20 mt-8 lg:mt-0">
         <div className="grid  gap-6  ">
           <div className="flex flex-col  lg:flex-row lg:py-10  lg:text-left gap-2  items-center      ">
@@ -145,3 +159,18 @@ function About() {
 }
 
 export default About;
+{/* <header */}
+// style={{ backgroundImage: `url(${eko3
+// })` }}
+// className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
+// >
+// <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+  {/* CTA */}
+  {/* <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
+    <p className="text-white regular-14 lg:regular-20  ">About us</p>
+    <h1 className=" bold-28 text-center md:text-left lg:bold-88 text-white">
+      Passionate and Sustainable
+    </h1>
+  </div>
+</div>
+</header> */}
