@@ -2,95 +2,97 @@ import portfolio from '../assets/portfolio.png';
 import { Link } from 'react-router-dom';
 
 //training
-import train1 from '../assets/portfolio/training1.jpg';
-import train2 from '../assets/portfolio/training2.jpg';
-import train3 from '../assets/portfolio/training3.jpg';
-import train4 from '../assets/portfolio/training4.jpg';
-import train5 from '../assets/portfolio/training5.jpg';
+import train1 from '../../assets/portfolio/training1.jpg';
+import train2 from '../../assets/portfolio/training2.jpg';
+import train3 from '../../assets/portfolio/training3.jpg';
+import train4 from '../../assets/portfolio/training4.jpg';
+import train5 from '../../assets/portfolio/training5.jpg';
 
 //7up
 
-import up1 from '../assets/portfolio/7up.webp';
-import up2 from '../assets/portfolio/7up2.webp';
-import up3 from '../assets/portfolio/7up3.webp';
-import up4 from '../assets/portfolio/7up4.webp';
+import up1 from '../../assets/portfolio/7up.webp';
+import up2 from '../../assets/portfolio/7up2.webp';
+import up3 from '../../assets/portfolio/7up3.webp';
+import up4 from '../../assets/portfolio/7up4.webp';
 
 //assembling
-import assemble from '../assets/portfolio/asembling1.jpg';
-import assemble2 from '../assets/portfolio/asembling2.jpg';
-import assemble3 from '../assets/portfolio/asembling3.jpg';
+import assemble from '../../assets/portfolio/asembling1.jpg';
+import assemble2 from '../../assets/portfolio/asembling2.jpg';
+import assemble3 from '../../assets/portfolio/asembling3.jpg';
 
 //bluwaters
-import bluewater1 from '../assets/portfolio/bluewaters1.webp';
-import bluewater2 from '../assets/portfolio/bluewaters2.webp';
-import bluewater3 from '../assets/portfolio/bluewaters3.webp';
-import bluewater4 from '../assets/portfolio/bluewaters4.webp';
+import bluewater1 from '../../assets/portfolio/bluewaters1.webp';
+import bluewater2 from '../../assets/portfolio/bluewaters2.webp';
+import bluewater3 from '../../assets/portfolio/bluewaters3.webp';
+import bluewater4 from '../../assets/portfolio/bluewaters4.webp';
 
 //zenith
-import zenith1 from '../assets/portfolio/Zenith1.webp';
-import zenith2 from '../assets/portfolio/Zenith2.webp';
-import zenith3 from '../assets/portfolio/Zenith3.webp';
-import zenith4 from '../assets/portfolio/Zenith4.webp';
-import zenith5 from '../assets/portfolio/Zenith5.webp';
-import zenith6 from '../assets/portfolio/zenith6.webp';
+import zenith1 from '../../assets/portfolio/Zenith1.webp';
+import zenith2 from '../../assets/portfolio/Zenith2.webp';
+import zenith3 from '../../assets/portfolio/Zenith3.webp';
+import zenith4 from '../../assets/portfolio/Zenith4.webp';
+import zenith5 from '../../assets/portfolio/Zenith5.webp';
+import zenith6 from '../../assets/portfolio/zenith6.webp';
 
 //eko
-import eko1 from '../assets/portfolio/Eko1.jpg';
-import eko2 from '../assets/portfolio/Eko2.jpg';
-import eko3 from '../assets/portfolio/Eko3.jpg';
-import eko4 from '../assets/portfolio/Eko4.jpg';
-import eko5 from '../assets/portfolio/Eko5.jpg';
-import eko6 from '../assets/portfolio/Eko6.jpg';
+import eko1 from '../../assets/portfolio/Eko1.jpg';
+import eko2 from '../../assets/portfolio/Eko2.jpg';
+import eko3 from '../../assets/portfolio/Eko3.jpg';
+import eko4 from '../../assets/portfolio/Eko4.jpg';
+import eko5 from '../../assets/portfolio/Eko5.jpg';
+import eko6 from '../../assets/portfolio/Eko6.jpg';
 
 //fav
-import fav1 from '../assets/portfolio/fav1.jpeg';
-import fav2 from '../assets/portfolio/fav2.jpeg';
-import fav3 from '../assets/portfolio/fav3.jpeg';
-import fav4 from '../assets/portfolio/fav4.jpeg';
-import fav5 from '../assets/portfolio/fav5.jpg';
-import fav6 from '../assets/portfolio/fav6.jpg';
+import fav1 from '../../assets/portfolio/fav1.jpeg';
+import fav2 from '../../assets/portfolio/fav2.jpeg';
+import fav3 from '../../assets/portfolio/fav3.jpeg';
+import fav4 from '../../assets/portfolio/fav4.jpeg';
+import fav5 from '../../assets/portfolio/fav5.jpg';
+import fav6 from '../../assets/portfolio/fav6.jpg';
 
 //rail
-import rail1 from '../assets/portfolio/rail1.webp';
-import rail2 from '../assets/portfolio/rail2.webp';
-import rail3 from '../assets/portfolio/rail3.webp';
-import rail4 from '../assets/portfolio/rail4.webp';
-import rail5 from '../assets/portfolio/rail5.webp';
-import rail6 from '../assets/portfolio/rail6.webp';
-import rail7 from '../assets/portfolio/rail7.webp';
-import rail8 from '../assets/portfolio/rail8.webp';
-import rail9 from '../assets/portfolio/rail9.webp';
-import railfav from '../assets/portfolio/railfav.jpg';
+import rail1 from '../../assets/portfolio/rail1.webp';
+import rail2 from '../../assets/portfolio/rail2.webp';
+import rail3 from '../../assets/portfolio/rail3.webp';
+import rail4 from '../../assets/portfolio/rail4.webp';
+import rail5 from '../../assets/portfolio/rail5.webp';
+import rail6 from '../../assets/portfolio/rail6.webp';
+import rail7 from '../../assets/portfolio/rail7.webp';
+import rail8 from '../../assets/portfolio/rail8.webp';
+import rail9 from '../../assets/portfolio/rail9.webp';
+import railfav from '../../assets/portfolio/railfav.jpg';
 
 //salvation
+import salvation1 from '../../assets/portfolio/salvation1.webp';
+// import salvation2 from '../../assets/portfolio/salvation2.JPG';
+import salvation3 from '../../assets/portfolio/salvation3.webp';
+import salvation4 from '../../assets/portfolio/salvation4.webp';
+import salvation5 from '../../assets/portfolio/salvation5.webp';
 
-import salvation1 from '../assets/portfolio/salvation1.webp';
-// import salvation2 from '../assets/portfolio/salvation2.JPG';
-import salvation3 from '../assets/portfolio/salvation3.webp';
-import salvation4 from '../assets/portfolio/salvation4.webp';
-import salvation5 from '../assets/portfolio/salvation5.webp';
+import towers1 from '../../assets/portfolio/towers1.jpg';
+import towers2 from '../../assets/portfolio/towers2.jpg';
+import towers3 from '../../assets/portfolio/towers3.jpg';
+import towers4 from '../../assets/portfolio/towers4.jpg';
 
-import towers1 from '../assets/portfolio/towers1.jpg';
-import towers2 from '../assets/portfolio/towers2.jpg';
-import towers3 from '../assets/portfolio/towers3.jpg';
-import towers4 from '../assets/portfolio/towers4.jpg';
+import nr1 from '../../assets/portfolio/nr1.webp';
+import nr2 from '../../assets/portfolio/nr2.webp';
+import nr3 from '../../assets/portfolio/nr3.webp';
+import nr4 from '../../assets/portfolio/nr4.webp';
+import nr5 from '../../assets/portfolio/nr5.webp';
+import nr6 from '../../assets/portfolio/nr6.webp';
 
-import nr1 from '../assets/portfolio/nr1.webp';
-import nr2 from '../assets/portfolio/nr2.webp';
-import nr3 from '../assets/portfolio/nr3.webp';
-import nr4 from '../assets/portfolio/nr4.webp';
-import nr5 from '../assets/portfolio/nr5.webp';
-import nr6 from '../assets/portfolio/nr6.webp';
+import image2 from '../../assets/image2.jpg';
+import image3 from '../../assets/image3.jpg';
 
-import image2 from '../assets/image2.jpg';
-import image3 from '../assets/image3.jpg';
+import pen1 from '../../assets/brands/pen1.webp';
+import pen2 from '../../assets/brands/pen2.webp';
+import pen3 from '../../assets/brands/pen3.webp';
+import pen4 from '../../assets/brands/pen4.webp';
+import pen5 from '../../assets/brands/pen5.webp';
+import pen6 from '../../assets/brands/pen6.webp';
 
-import pen1 from '../assets/brands/pen1.webp';
-import pen2 from '../assets/brands/pen2.webp';
-import pen3 from '../assets/brands/pen3.webp';
-import pen4 from '../assets/brands/pen4.webp';
-import pen5 from '../assets/brands/pen5.webp';
-import pen6 from '../assets/brands/pen6.webp';
+
+
 
 
 const PROJECTS = [
@@ -191,24 +193,22 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-
-      <div className='grid grid-cols-4'>
       
       {PROJECTS.map((project, index) => (
-        <section key={index} className=" container  mx-auto ">
+        <section key={index} className="px-5 py-8 container lg:px-36 mx-auto space-y-2">
           {/* Link to the dynamic route */}
-          <Link to={`/portfolio/${index}`}>
+          <Link to={`/projects/${index}`}>
             <img src={project.titleImage} alt="portfolio image" />
           </Link>
         </section>
       ))}
-</div>
+
 
 
    
       
    
-
+      {/* PARKS PROJECTS DONE BY FORMYARD */}
 
   
 

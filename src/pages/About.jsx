@@ -54,10 +54,11 @@ function About() {
                 Our Expertise
               </h2>
               <p className=" text-gray-30 mt-4 font-normal  mb-2 md:mb-0  text-center md:text-left lg:w-4/5">
-                We specialize in commercial and residential construction
-                projects, including new construction, renovations, and
+                We specialize in providing formwork for  commercial,  residential, and civil construction
+                projects, 
+                for new construction, renovations, and
                 additions. Our team has extensive experience and knowledge in
-                the industry, allowing us to provide our clients with top-notch
+                the industry, allowing us to provide our clients with top-notch engineering and support
                 services.
               </p>
             </div>
@@ -82,9 +83,9 @@ function About() {
               </h2>
               <p className="mt-4   text-gray-30 text-center md:text-left lg:w-4/5">
                 We follow a rigorous process for every project we undertake,
-                from initial consultation to final inspection. Our team works
-                closely with our clients to ensure that their vision is realised
-                and that the project is completed on time and within budget.
+                from initial consultation to final delivery. We work
+                closely with our clients to ensure that their project is realised 
+                and completed on time  within budget.
               </p>
             </div>
           </div>

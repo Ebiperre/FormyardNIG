@@ -7,13 +7,13 @@ import Solution from "../components/Solution"
 import Products from "../components/Products"
 import Clients from '../components/Clients'
 import Projects from '../components/Projects'
-import Brands from '../components/brands'
+
 
 const Home = () => {
   return (
     <div className='w-full '>
         <Hero  />
-        <Brands />
+
         <Stats  />
         <Services />
         <Solution />
