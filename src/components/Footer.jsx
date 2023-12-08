@@ -52,7 +52,7 @@ function Footer() {
               {FOOTER_CONTACT_INFO.links.map((link) => (
                 <Link to="/"
                 key={link.key} 
-                className="flex gap-4 md:flex-col lg:flex-row pt-3">
+                className="flex gap-2 md:flex-col lg:flex-row pt-3 items-center">
                   <p className="whitespace-nowrap">{link.label}</p>
                   <p className="medium-14 whitespace-nowrap text-blue-70">{link.value}</p>
                 </Link>
