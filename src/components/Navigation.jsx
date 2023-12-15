@@ -15,7 +15,7 @@ const Navigation = () => {
         <li>
           <div className="w-[120px]">
             <Link to="/">
-            <img src={logo} alt="logo image" />
+            <img src={logo} alt="logo image" className='object-fit h-20'/>
             </Link>
           </div>
         </li>

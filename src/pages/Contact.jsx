@@ -71,7 +71,9 @@ function Contact() {
         {/* map */}
         <div className='px-2 md:px-0'>
           {/* <iframe width="400" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=600&amp;hl=en&amp;q=Block%20101,%20Plot%2021,%20Adewunmi%20Adebimpe%20Drive,%20Off%20Marwa%20Bus%20Stop,%20Lekki%201,%20Lagos%20%7C%20Nigeria+(farmyard)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Find Population on Map</a></iframe> */}
-          <iframe width="400" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=20%20Furo%20Ezimora%20St,%20Lekki%20Phase%20I,%20Lekki%20106104,%20Lagos+(formyad)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population mapping</a></iframe>
+          {/* <iframe width="400" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=20%20Furo%20Ezimora%20St,%20Lekki%20Phase%20I,%20Lekki%20106104,%20Lagos+(formyad)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population mapping</a></iframe> */}
+
+          <iframe width="400" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Block%20101,%20Plot%2021,%20Adewunmi%20Adebimpe%20Drive,%20Off%20Marwa%20Bus%20Stop,%20Lekki%201,%20Lagos%20%7C%20Nigeria+(formyard)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population mapping</a></iframe>
         </div>
         {/* contact form */}
         <div className='flex flex-col w-full lg:w-[397px] gap-[29px] justify-center '>

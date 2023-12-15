@@ -9,9 +9,11 @@ const Services = () => {
   return (
     <section className="2xl:max-container 4xl:max-none  lg:mt-14 relative flex flex-col px-5 md:px-10 lg:px-20  lg:mb-10  xl:mb-20">
       <div className="flexCenter flex-col mt-14 w-full">
-        <h1 className="bold-28 text-center md:text-left lg:bold-56   lg:px-0">Tailored Construction Solutions</h1>
+        <h1 className="bold-28 text-center md:text-left lg:bold-56   lg:px-0">Tailored Formwork Solutions</h1>
         <p className="md:regular-20  lg:w-[782px] pt-7 text-center">
-        At Formyard Ltd, we are committed to sustainable and eco-friendly construction practises. We use green building materials and techniques whenever possible to reduce our impact on the environment.
+        At Formyard Ltd, we are committed to sustainable formwork system 
+practices
+, by  using cost effective and safe solutions, while helping the clients achieve his target for delivery accurately, without compromising quality and safety on the environment. 
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[23px] mt-14  ">

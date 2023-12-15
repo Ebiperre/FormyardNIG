@@ -10,6 +10,11 @@ import about4 from '../assets/about4.webp';
 import about2 from '../assets/about2.webp';
 
 
+
+//table 
+import table from '../assets/table.jpeg';
+
+
 //whatsapp
 // import whats1 from '../assets/portfolio/whats.jpeg'
 import whats from '../assets/brands/whats.jpeg';
@@ -331,13 +336,13 @@ function About() {
             <div className="lg:py-10  lg:text-left lg:w-1/2 gap-4 ">
               <h2 className=" text-3xl  text-center md:text-left">
                 {' '}
-                Rental Service
+              Equipment Leasing 
               </h2>
               <p className="mt-4   text-gray-30 text-center md:text-left lg:w-4/5">
                 Swift availability of formwork equipment is a crucial factor.
                 Formyard’s national network of sales and logistics facilities
                 with high-capacity rental parks, facilitates security of supply
-                and rapid provisioning times. The Formyard quality standards
+                and rapid provisioning times.(specific lease facilities, kindly contact us for more details). The Formyard quality standards
                 stand for certainty and reliability and helps renters to achieve
                 cost-effective construction workflows by providing them with
                 quality-inspected formwork equipment. 
@@ -364,13 +369,13 @@ function About() {
                 having coordinated, transparent workflows. Reduced commissioning
                 costs Less pressure on your own Operations Scheduling Dept.
                 Optimum utilization of site resources Greater certainty on the
-                site, due to improved logistics and stockkeeping.
+                site, due to improved logistics and stock-keeping.
               </p>
             </div>
 
             <div className="w-full lg:w-1/2">
               <img
-                src={assemble3}
+                src={table}
                 alt="about image"
                 className="lg:w-[500px] w-full"
               />
@@ -389,7 +394,7 @@ function About() {
             </div>
             <div className="w-full lg:w-1/2">
               <img
-                src={whats}
+                src={assemble3}
                 alt="about image"
                 className="lg:w-[500px] w-full"
               />
@@ -442,7 +447,7 @@ function About() {
                 unusual shapes call for an individualized approach. However,
                 this is where Formyard Ready-to-Use service comes in,
                 ‘tailor-making’ custom formwork units for you. By combining
-                Formyard system with custom-built solutions, this helps to
+                Formwork system with custom-built solutions, this helps to
                 achieve economically efficient construction workflows: Less
                 assembly work needed at your site. Faster workflows, as forming
                 can be performed with precise-fitting accuracy. Rapid forming

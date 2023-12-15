@@ -4,7 +4,7 @@ import { FEATURES } from "../constants";
 
 
 const data = [
-  { stats: "100", icon: true, text: "projects Completed", text2: "Always building quality industries" },
+  { stats: "200", icon: true, text: "projects Completed", text2: "Always building quality industries" },
   { stats: "95", icon: false, text: "Satisfaction Rate", text2: "Best manufacturing service provider" },
   { stats: "200", icon: true, text: "Satisfied Clients", text2: "Using the newest manufacturing tech" },
   { stats: "150", icon: true, text: "Qualified Engineers", text2: "Experiences trusted contractor" },
@@ -27,7 +27,7 @@ const Stats = () => {
             </div>
             <div className="flex  items-center gap-4 w-[240px] h-[78px]  rounded-full  border border-black py-4 px-7 ">
               <AiFillCheckCircle size={32} />
-              <p className="text-base">{stats.description}</p>
+              <small className="text-base">{stats.description}</small>
             </div>
           </div>
         ))}

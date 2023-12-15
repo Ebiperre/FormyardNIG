@@ -38,24 +38,24 @@ export const NAV_LINKS = [
 //FEATURES
 export const FEATURES = [
   {
-    stats: '100+',
-    title: 'Projects Completed',
-    description: 'Always building quality industries',
+    stats: '200+',
+    title: 'Projects Completed ',
+    description: 'In Nigeria and West Africa',
   },
   {
     stats: '95%',
     title: 'Satisfaction Rate',
-    description: 'Best manufacturing service provider',
+    description: 'All round formwork material and service provider',
   },
   {
-    stats: '200+',
+    stats: '100+',
     title: 'Satisfied Clients',
-    description: 'Using the newest manufacturing tech',
+    description: '100+ clients choose our excellence and reliability',
   },
   {
     stats: '150+',
-    title: 'Qualified Engineers',
-    description: 'Experiences trusted contractor',
+    title: 'Trained Capenters & Engineers',
+    description: 'Skilled carpenters and engineers ready for your projects',
   },
 ];
 
@@ -131,7 +131,7 @@ export const FOOTER_LINKS = [
     key: 'portfolio',
     href: '/portfolio',
     links: [
-      'Lekki Blue waters',
+      'Project Reference',
       'Formyard Training Program',
       'Service Assembly',
     ],
@@ -153,7 +153,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Support team', value: '0813 860 5060' },
-    { label: 'Email', value: 'Kevork@formyardnig.com.' },
+    { label: 'Support team', value: '+234(0) 813 860 5060' },
+    { label: 'Email', value: 'Kevork@formyardnig.com' },
   ],
 };
