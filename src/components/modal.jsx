@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import cv from '../../src/assets/portfolio/7up.webp';
+import portfolio from '../../src/assets/portfolio/--FORMYARD LIMITED COMPANY PROFILE. (1).pdf';
 
 const Modal = ({ onClose }) => {
   const [name, setName] = useState('');
@@ -129,7 +129,7 @@ const Modal = ({ onClose }) => {
               }`}
             >
               <a
-                href={cv}
+                href={portfolio}
                 download
                 type="submit"
                 onClick={onClose}
