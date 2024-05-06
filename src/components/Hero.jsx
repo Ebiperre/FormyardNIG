@@ -4,6 +4,7 @@ import hero from '../assets/portfolio/Eko5.jpg';
 import logo from '../assets/Logo.png';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { Outlet, Link } from 'react-router-dom';
+import portfolio from '../../src/assets/portfolio/--FORMYARD LIMITED COMPANY PROFILE. (1).pdf';
 
 import Modal from './modal';
 
@@ -49,10 +50,16 @@ const Hero = () => {
                 <Link to="/contact">Contact us</Link>
               </button>
               <button
-                onClick={handleDownload}
+                // onClick={handleDownload}
                 className="rounded-full text-black  text-base font-bold text-start bg-[#E9F3FF] hover:bg-[#FFDD00] transform transition  hover:scale-105 px-12 py-3 duration-200"
               >
+                <a
+                href={portfolio}
+                download
+                // className="bg-[#FFDD00] text-black rounded-full px-6 py-2 font-bold cursor-pointer"
+              >
                 Download
+              </a>
               </button>
             </div>
             {/* Modal */}

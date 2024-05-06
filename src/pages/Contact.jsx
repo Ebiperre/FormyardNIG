@@ -1,4 +1,4 @@
-// import React from 'react';
+import { useState } from 'react';
 // import contact from '../assets/contact.png';
 // import logo from '../assets/Logo.png';
 // import map from '../assets/map.png';
@@ -9,6 +9,17 @@ import fav6 from '../assets/portfolio/fav6.jpg';
 // import { AiOutlineMenu } from 'react-icons/ai';
 
 function Contact() {
+  const handleSubmit = () => {
+    setTimeout(() => {
+      setEmail('');
+      setName('');
+      setMessage('');
+    }, 1000); // Adjust the delay time in milliseconds as needed
+  };
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
   return (
     <div>
       <div className="relative mx-auto ">
@@ -89,27 +100,25 @@ function Contact() {
               <a href="https://www.gps.ie/">gps trackers</a>
             </iframe>
 
-            {/* <iframe
-              width="400"
-              height="600"
-              frameBorder="0"
-              scrolling="no"
-              marginHeight="0"
-              marginWidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Block%20101,%20Plot%2021,%20Adewunmi%20Adebimpe%20Drive,%20Off%20Marwa%20Bus%20Stop,%20Lekki%201,%20Lagos%20%7C%20Nigeria+(formyard)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            >
-              <a href="https://www.maps.ie/population/">Population mapping</a>
-            </iframe> */}
+          
           </div>
           {/* contact form */}
           <div className="flex flex-col w-full lg:w-[397px] gap-[29px] justify-center ">
             <h2 className="bold-32">Contact Form</h2>
 
-            <form className="flex flex-col space-y-4 mt-4">
+            <form
+              className="flex flex-col space-y-4 mt-4"
+              action="https://formsubmit.co/ezeoyeg@gmail.com"
+              method="POST"
+            >
               <label htmlFor="" className="flex flex-col space-y-3">
                 <span className="regular-16">Full Name</span>
                 <input
+                  required
                   type="text"
+                  onChange={(e) => setName(e.target.value)}
+                  value={name}
+                  name="Name"
                   placeholder="john Doe"
                   className="py-4 px-6 border border-[#939294] rounded-md"
                 />
@@ -117,25 +126,34 @@ function Contact() {
               <label htmlFor="" className="flex flex-col space-y-3">
                 <span className="regular-16">Email Address</span>
                 <input
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   type="text"
-                  placeholder="john Doe"
+                  name="Email"
+                  placeholder="@mail.com"
                   className="py-4 px-6 border border-[#939294] rounded-md"
                 />
               </label>
               <label htmlFor="" className="flex flex-col space-y-3">
                 <span className="regular-16">Message</span>
                 <textarea
-                  name=""
+                  name="Message"
+                  onChange={(e) => setMessage(e.target.value)}
+                  value={message}
                   id=""
                   cols="30"
                   rows="5"
                   className="border rounded-md border-[#939294] p-4 text-[#878787]"
-                >
-                  Enter Your Message
-                </textarea>
+                  placeholder="Enter Your Message"
+                ></textarea>
               </label>
               <div className="pt-4">
-                <button className="bg-[#FD0]  w-full py-4 px-6 rounded-md font-bold text-white">
+                <button
+                  type="submit"
+                  onClick={handleSubmit}
+                  className="bg-[#FD0]  w-full py-4 px-6 rounded-md font-bold text-white"
+                >
                   Submit
                 </button>
                 <p className="text-center mt-4">Speak with a rep</p>
@@ -149,37 +167,3 @@ function Contact() {
 }
 
 export default Contact;
-
-{
-  /* <header
-style={{ backgroundImage: `url(${fav6})` }}
-className="relative max-container padding-container flex flex-col gap-20 py-2 pb-32 md:gap-28 lg:pb-20 lg:pt-2 xl:flex-row bg-cover"
->
-<div className="relative z-20 flex flex-1 flex-col xl:w-1/2"> */
-}
-{
-  /* <div className=" w-full flexBetween pt-2">
-    <div className="w-24">
-      <Link to={`/`} className="font-bold">
-        <img src={logo} />
-      </Link>
-    </div>
-    <button className="bg-white text-black rounded-full p-2">
-      <AiOutlineMenu size={20} />
-    </button>
-  </div> */
-}
-
-{
-  /* CTA */
-}
-//   <div className="relative flexCenter flex-1  flex-col py-16 lg:py-44 gap-3 lg:gap-6">
-//     <h1 className=" bold-52 lg:bold-88 text-white">
-//       Get in touch with us for more information
-//     </h1>
-//     <p className="text-white regular-14 lg:regular-20  ">
-//       If you need help or question, we’re here for you
-//     </p>
-//   </div>
-// </div>
-// </header>

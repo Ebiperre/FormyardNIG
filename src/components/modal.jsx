@@ -13,7 +13,10 @@ const Modal = ({ onClose }) => {
     // ...
 
     // Close the modal after form submission
-    onClose();
+
+    setTimeout(() => {
+      onClose();
+    }, 1000);
   };
 
   const handleNameChange = (e) => {
@@ -69,60 +72,54 @@ const Modal = ({ onClose }) => {
           </button>
           <h2 className="text-2xl font-bold mb-4">Download Form</h2>
           {/* Your form goes here */}
-          <form onSubmit={handleFormSubmit}>
-            {/* Your form inputs go here */}
-            <h2>Fill out the form to proceed to download</h2>
-            <form>
-              <div className="mt-1 ">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="full-name"
-                  autoComplete="email"
-                  required
-                  value={name}
-                  onChange={handleNameChange}
-                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
-                  focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                />
-              </div>
 
-              <div className="mt-1 ">
-                <input
-                  type="email"
-                  name="email"
-                  autoComplete="email"
-                  placeholder="email"
-                  required
-                  value={email}
-                  onChange={handleEmailChange}
-                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
+          {/* Your form inputs go here */}
+          <h2>Fill out the form to proceed to download</h2>
+          <form action="https://formsubmit.co/ezeoyeg@gmail.com" method="POST">
+            <div className="mt-1 ">
+              <input
+                type="text"
+                name="name"
+                placeholder="full-name"
+                autoComplete="email"
+                required
+                value={name}
+                onChange={handleNameChange}
+                className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
                   focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                />
-              </div>
+              />
+            </div>
 
-              <div className="mt-1 mb-2 ">
-                <input
-                  type="number"
-                  name="number"
-                  autoComplete="email"
-                  required
-                  placeholder="phone number"
-                  value={phoneNumber}
-                  onChange={handlePhoneNumberChange}
-                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
+            <div className="mt-1 ">
+              <input
+                type="email"
+                name="email"
+                autoComplete="email"
+                placeholder="email"
+                required
+                value={email}
+                onChange={handleEmailChange}
+                className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
                   focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                />
-              </div>
+              />
+            </div>
 
-              {/* <div className='w-full '>
-                    <label htmlFor="name">
-                    </label>
-                    <input type="number" placeholder='number' required className='border w-full' />
-                </div> */}
-            </form>
+            <div className="mt-1 mb-2 ">
+              <input
+                type="number"
+                name="number"
+                autoComplete="email"
+                required
+                placeholder="phone number"
+                value={phoneNumber}
+                onChange={handlePhoneNumberChange}
+                className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
+                  focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+              />
+            </div>
+
             <button
-              type="button"
+              type="submit"
               disabled={!isFormValid}
               className={` ${
                 isFormValid ? '' : 'opacity-50 pointer-events-none'
@@ -131,8 +128,6 @@ const Modal = ({ onClose }) => {
               <a
                 href={portfolio}
                 download
-                type="submit"
-                onClick={onClose}
                 className="bg-[#FFDD00] text-black rounded-full px-6 py-2 font-bold cursor-pointer"
               >
                 Download
