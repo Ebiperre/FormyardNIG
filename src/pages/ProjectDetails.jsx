@@ -111,7 +111,7 @@ const PROJECTS = [
     category: 'Residential',
     categorys: 'Residential Project',
     titleImage: towers4,
-    images: [towers4, towers3, drawing1, drawing2, drawing3, drawing4], // Add other images for this project
+    images: [towers3, drawing1, drawing2, drawing3, drawing4], // Add other images for this project
     description:
       "Formyard team, previously known as Doka Formwork Nig Ltd, successfully executed the Azuri Towers project in 2017 for ITB Nigeria FZE. The project showcased their prowess in construction and engineering services, involving the implementation of hydraulic climbing systems, specifically the SKE50+ and SKE50 system. With top-tier materials like Large-area Formwork Top 50 system and Doka TRENN, Formyard demonstrated excellence in both sales and refurbishing of the SKE50 equipment previously used at Eko Tower 2. The Azuri Towers project stands as a testament to Formyard's commitment to delivering high-quality formwork solutions and innovative engineering services, solidifying their reputation in the industry.",
   },
@@ -120,7 +120,7 @@ const PROJECTS = [
     titleImage: pen1,
     category: 'Bridge',
     categorys: 'Bridge Project',
-    images: [pen1, pen3], // Add other images for this project
+    images: [pen3], // Add other images for this project
     description:
       "Formyard team, previously known as Doka Formwork Nig Ltd, proudly undertook the supply and design of the formwork for the Pen Cinema project from 2017 to 2018 in collaboration with Hitech Construction Company Ltd. Employing advanced systems like Timber-Beam Formwork and a Concrete Pressure Monitoring System, Formyard's engineering prowess, and the use of quality materials such as Large Area Formwork TOP 50 system showcased their commitment to excellence in construction.",
   },
@@ -129,7 +129,7 @@ const PROJECTS = [
     category: 'Residential',
     categorys: 'Residential Project',
     titleImage: nr6,
-    images: [nr6, nr2, nr3, nr5],
+    images: [nr2, nr3, nr5],
     description:
       "The Formyard team, previously known as Doka Formwork Nig Ltd, showcased its expertise in large-scale construction with the successful completion of Project NR 4 in 2016. Collaborating with RCF Ltd, Formyard Ltd provided comprehensive engineering services, focusing on Slab Formwork 1-2-4 and Climbing Formwork. The innovative use of Telescopic Shaft Beams, 3-S0 and Doka Trenn materials underscored Formyard Ltd's commitment to precision and efficiency. The incorporation of climbing Formwork and Bracket K platforms showcased cutting-edge techniques, ensuring a seamless construction process. This project stands as a testament to Formyard Ltd's dedication to delivering top tier engineering solutions and reinforcing its position as an industry leader.",
   },
@@ -148,7 +148,7 @@ const PROJECTS = [
     titleImage: up2,
     category: 'Park',
     categorys: 'Park Project',
-    images: [up1, up2, up3, up4],
+    images: [up1,  up3, up4],
     description:
       'The Formyard team previously known as Doka Formwork Nig Ltd "7-UP Truck Park" project, undertaken in 2014-2015, showcased our expertise in engineering services. The project involved the implementation of a comprehensive system that included single-sided formwork, top 50 slab formwork, floor props, and timber formwork. Our choice of materials, such as Eurex props, H20 beams, and 3-SO sheets, ensured the structural integrity and durability of the project. The "7-UP Truck Park" exemplifies our commitment to delivering high-quality, reliable solutions and reflects our dedication to excellence in construction and engineering.',
   },
@@ -176,7 +176,7 @@ const PROJECTS = [
     titleImage: image2,
     category: 'Rental',
     categorys: 'Rental Project',
-    images: [ tank3, tank1,tank4, tamk2],
+    images: [ tank3, tank1,tank4, ],
     description:
       "In 2023, the Formyard team, previously known as Doka Formwork Nig Ltd, teamed up with South EnergyX FZE to deliver a cutting-edge solution for water infrastructure with the Water Tank (Rental) project. They used super strong and fast equipment like the Load Bearing Towers Staxo 100 and D2 + H20 materials to make sure the water tanks were sturdy and reliable. By doing this, Formyard Ltd proved they're experts at making sure things work well and last a long time, especially when it comes to water projects. This project is just another example of how Formyard Ltd is known for coming up with smart and innovative ideas in the construction and engineering world.",
   },
@@ -195,7 +195,7 @@ const PROJECTS = [
     titleImage: assemble,
     category: 'Assemble',
     categorys: 'Assemble Project',
-    images: [assemble, assemble2, assemble4],
+    images: [ assemble2, assemble4],
     description:
       "At FORMYARD LTD, our suite of services extends to an exceptional offering: our Assembling Drawings Services. With a wealth of expertise and cutting-edge resources at our disposal, we specialize in seamlessly assembling a diverse array of drawings tailored to meet multifaceted needs. Our Assembling Drawings Services go beyond conventional assembly; they represent a meticulous fusion of precision and innovation. Each drawing is meticulously crafted to not only fulfil the specific requirements of our clients but also serve as a detailed roadmap for project realization. These drawings aren't just about bringing elements together; they act as a comprehensive guide, streamlining processes, optimizing resource allocation, and significantly enhancing overall operational efficiency. At FORMYARD LTD, we take pride in delivering Assembling Drawings Services that transform complex concepts into visual blueprints, ensuring a smooth and efficient execution of projects while surpassing client expectations.",
   },

@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
+import cv from '../../src/assets/portfolio/7up.webp';
 
 const Modal = ({ onClose }) => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [isFormValid, setIsFormValid] = useState(false);
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
     // Add logic for form submission, e.g., initiate download
@@ -8,6 +14,33 @@ const Modal = ({ onClose }) => {
 
     // Close the modal after form submission
     onClose();
+  };
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+    validateForm();
+  };
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    validateForm();
+  };
+
+  const handlePhoneNumberChange = (e) => {
+    setPhoneNumber(e.target.value);
+    validateForm();
+  };
+
+  const validateForm = () => {
+    // Check if both email and phone number are entered
+    if (
+      email.trim() !== '' &&
+      phoneNumber.trim() !== '' &&
+      name.trim() !== ''
+    ) {
+      setIsFormValid(true);
+    } else {
+      setIsFormValid(false);
+    }
   };
 
   return (
@@ -40,68 +73,70 @@ const Modal = ({ onClose }) => {
             {/* Your form inputs go here */}
             <h2>Fill out the form to proceed to download</h2>
             <form>
-
-            <div className="mt-1 ">
+              <div className="mt-1 ">
                 <input
                   type="text"
                   name="name"
-                  placeholder='full-name'
+                  placeholder="full-name"
                   autoComplete="email"
                   required
-                //   value={email}
-                //   onChange={(e) => setEmail(e.target.value)}
+                  value={name}
+                  onChange={handleNameChange}
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
                   focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
-              
-            <div className="mt-1 ">
+              <div className="mt-1 ">
                 <input
                   type="email"
                   name="email"
                   autoComplete="email"
-                  placeholder='email'
+                  placeholder="email"
                   required
-                //   value={email}
-                //   onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                  onChange={handleEmailChange}
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
                   focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
-              
-            <div className="mt-1 mb-2 ">
+              <div className="mt-1 mb-2 ">
                 <input
-                  type="email"
-                  name="email"
+                  type="number"
+                  name="number"
                   autoComplete="email"
                   required
-                  placeholder='phone number'
-                //   value={email}
-                //   onChange={(e) => setEmail(e.target.value)}
+                  placeholder="phone number"
+                  value={phoneNumber}
+                  onChange={handlePhoneNumberChange}
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none
                   focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                 />
               </div>
 
-               
-
-              
-                
-                {/* <div className='w-full '>
+              {/* <div className='w-full '>
                     <label htmlFor="name">
                     </label>
                     <input type="number" placeholder='number' required className='border w-full' />
                 </div> */}
             </form>
-         
-        
             <button
-              type="submit"
-              className="bg-[#FFDD00] text-black rounded-full px-6 py-2 font-bold"
+              type="button"
+              disabled={!isFormValid}
+              className={` ${
+                isFormValid ? '' : 'opacity-50 pointer-events-none'
+              }`}
             >
-              Download
+              <a
+                href={cv}
+                download
+                type="submit"
+                onClick={onClose}
+                className="bg-[#FFDD00] text-black rounded-full px-6 py-2 font-bold cursor-pointer"
+              >
+                Download
+              </a>
             </button>
           </form>
         </div>

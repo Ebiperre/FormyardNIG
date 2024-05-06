@@ -54,7 +54,7 @@ export const FEATURES = [
   },
   {
     stats: '150+',
-    title: 'Trained Capenters & Engineers',
+    title: 'Trained Carpenters & Engineers',
     description: 'Skilled carpenters and engineers ready for your projects',
   },
 ];
