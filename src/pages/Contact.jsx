@@ -108,7 +108,7 @@ function Contact() {
 
             <form
               className="flex flex-col space-y-4 mt-4"
-              action="https://formsubmit.co/ezeoyeg@gmail.com"
+              action="https://formsubmit.co/kevork@formyardnig.com"
               method="POST"
             >
               <label htmlFor="" className="flex flex-col space-y-3">
